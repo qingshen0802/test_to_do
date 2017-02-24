@@ -1,0 +1,1967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B97E78D3E784436E197B29EB9962A7 /* format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFF9F24C530D8FEF331132126928D1 /* format.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		02D974DA2855F020D1933F3157B890A4 /* RLMSyncUtil_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = ABBF2DC405A3137BF1F0DDA1F115C16A /* RLMSyncUtil_Private.h */; };
+		02DE0792C511EB4F0ABD879FB63CC4E8 /* RLMSyncPermissionOfferResponse.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 3339CDFD771EF465EEA66FFC7F5585B2 /* RLMSyncPermissionOfferResponse.h */; };
+		08326E539B9CC20FF3FD39EE627F623E /* RLMSyncPermissionOfferResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3339CDFD771EF465EEA66FFC7F5585B2 /* RLMSyncPermissionOfferResponse.h */; };
+		08F70BDD45F0B73F1AD27507808FEC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		09F2517C22F191C69959F71380FCFA5A /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1272538948951199BF166A4A7B837645 /* Realm.swift */; };
+		0B5C91FA84AB1C09A286E6834EBE57BF /* RLMObjectStore.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 1E3C4F071778711882BE777C08067055 /* RLMObjectStore.h */; };
+		0B9FAA59E53F8381BAD75316E70145BE /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC60B666C7BAF3EE45DFAFF1485DC5B /* IQUIView+IQKeyboardToolbar.swift */; };
+		0DD66494B8D9C4EBCEB68810449CA9C8 /* RLMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 898B1DA04BAEE8153A5B6ECDBB9B8B2B /* RLMProperty.h */; };
+		0E6D33291FBF781263A77DAB971A8457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		0EE551A358DBAB4E4872769CD694D3B8 /* RealmConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC5BE3847FF5E268D148453F57165A9 /* RealmConfiguration.swift */; };
+		0F6BC7FF0E2BDFB28B8239F304A68E46 /* LinkingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4C3F72B7569CABC83E57CE5480FF7 /* LinkingObjects.swift */; };
+		0F7CB0DABFA4D47C83E1B969FF70A0BD /* RLMRealmConfiguration+Sync.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 99317DC3CB4D851D7BC8B1AE0439314F /* RLMRealmConfiguration+Sync.h */; };
+		10C2959AFE2568B605024DE655A81102 /* RLMSyncSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73F4A1D58F002AB3C10F376DB50C498E /* RLMSyncSession.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		115E7BEC96A87E2A7450B22C00109324 /* RLMTokenModels.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAAE62BD40967B2281B707B6C940083 /* RLMTokenModels.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		123D28717B28730D7DDD56E56B646294 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC5CD72A05FC80F03C4F643D46B585 /* IQUITextFieldView+Additions.swift */; };
+		136E27CE73B64E1450FD7932A033F594 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 809717DF2C9AB01B46DBD0E185C4F9EB /* object.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		15660E486B774D1FE357BA0224E6A2ED /* RLMRealm_Dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E62AA063BEDF77719D60CA90F425D90 /* RLMRealm_Dynamic.h */; };
+		1569ABC3B7641ADAAA68AC68D182B3B4 /* RLMRealmConfiguration+Sync.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89089FE8A8EBF684865E48A6F2E925E6 /* RLMRealmConfiguration+Sync.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		15BEA2A4BE6C6F898C7903F989CF0059 /* RLMSyncPermissionOffer_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 107E31A6529CF0FAC3302E27DFA8AF27 /* RLMSyncPermissionOffer_Private.h */; };
+		165D06A3DA0201EB64ED42A565BA5E31 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695FCCC4CC4352F170902F0EDDD6EADB /* Error.swift */; };
+		177FF1D62CA114F32F2A4F9E17563E3A /* RLMSyncCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD3414E9F2BD9D62F6805E3CD58F66D /* RLMSyncCredentials.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		17CEE18F63D6EA12635983B4E640CE7D /* RLMSyncConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1141AB376EEAC0C576145949E84932F4 /* RLMSyncConfiguration_Private.h */; };
+		18B369336CDB0C49990340A5DCBFEFD9 /* RLMSyncUser.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 76014BEE1C0D6643A3354EDAF0BC167E /* RLMSyncUser.h */; };
+		198D2A2CE83ECA327C12D71B74AD6D00 /* RLMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E1B98742994066D4E28F1D7717A6BD /* RLMObject.h */; };
+		1A20815545DC32790D5C806D24B726D5 /* sync_metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4352AEC8273578D1AB7410ABF0786A /* sync_metadata.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		1C7F3991803E2AEEA30AF089961F858E /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FC28A9F0D7509B55329D126A0FF2B6 /* Sync.swift */; };
+		1C8F85A1033B5AE0FE8126CE2E937E9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315D03E4111770E1E6E43F21637970BB /* CoreGraphics.framework */; };
+		1D363BC26E5C2685D8BAB89D74E4A94D /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519E11A0D537B37928B96A69F54DA32 /* Optional.swift */; };
+		20A0AAF1E1174EA27F39A0ECD7EF0F40 /* RLMRealmConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D8524359715C2B133D8D7EC061663F /* RLMRealmConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		219CE6172C162B9476A9C8C753597731 /* RLMRealm_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8E62AA063BEDF77719D60CA90F425D90 /* RLMRealm_Dynamic.h */; };
+		22BF5066806248FBD63CD64193B95AB6 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266C75088C6A3BD9A09AA1FCA12F324 /* IQUIScrollView+Additions.swift */; };
+		23FA8BDDF3EB1BF52D186585FE1AF411 /* RLMRealmConfiguration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 064EAEE0DD9A3C81A56B9A3BB9A9CB42 /* RLMRealmConfiguration.h */; };
+		262FA2D8C4D439566FDFB31D1A414980 /* RLMObservation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4DF47A9EB260108F80C41F068AFEBF1 /* RLMObservation.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		267873D533A72BB471F7FEE7819A4854 /* schema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 016EF127BA5174327CD492AFC6B1B33A /* schema.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		26F97D3ABCEC17CB6C1794CA27E07870 /* RLMObject_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D39A9C8439CACCAF9EA182B6BEA4615C /* RLMObject_Private.h */; };
+		285730E520AE2FE2503D0F5C73A7D25E /* RLMOptionalBase.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F708813A385C4CEF8126F5AA804D9403 /* RLMOptionalBase.h */; };
+		2BC48BA9EC7B6F6F334FB9CF2758D461 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF453C3B3451FC62857345981BB5E8B /* IQUIView+Hierarchy.swift */; };
+		2C685CCA4436F0561206E171B058FC3D /* RLMSyncPermissionChange.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB8B723A2B29682C0349F7B4CD05114 /* RLMSyncPermissionChange.h */; };
+		2C8FB1B539FF115049DA6D721B1BB34F /* RLMMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = 634A44536BBE06CD1CDE2FD752D3B622 /* RLMMigration.h */; };
+		2DBAF6EAB0875F55ADD47EB67FFB5890 /* RLMObjectBase_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 997EE6F3683F1955F4276EC04A2A350B /* RLMObjectBase_Dynamic.h */; };
+		2E037C08F7B2D54726D0F7814D9B89FB /* collection_change_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02CD041F282964AD703CA6D4F8350505 /* collection_change_builder.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		2EBD7B6D6EEBAD72870AECB44D1E3AE2 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D624848D46FA103FE9193210FE13DF /* IQBarButtonItem.swift */; };
+		2F4D73105A0C491D0A0503C47D30390E /* RLMObjectSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 34A3C1B62B684186C7FFB9665FBF153C /* RLMObjectSchema_Private.h */; };
+		2FA8C951910DBB0F74E4C3271D219FE9 /* RLMConstants.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 262342F9F4A931865F404C1749D5D236 /* RLMConstants.h */; };
+		2FAD5AE4107A3F61B3D4F146494B7253 /* ThreadSafeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D427C61D3BB4E1A26F2BE17FE6A032 /* ThreadSafeReference.swift */; };
+		32D47B0AE0C145C1E9662CC2468FED0E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36766C8BCD8DA3556F941276A9C373C /* IQTitleBarButtonItem.swift */; };
+		32FC84F4F94BED3FFB2F8F5393FCE724 /* RLMArrayLinkView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D2288B664B63B2974CE65854B6C72 /* RLMArrayLinkView.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		33EF5DFAEEA459FBE38151E8EAA62299 /* Pods-ToDo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1B8F39BF4F98FB194B206D6C7E90 /* Pods-ToDo-dummy.m */; };
+		36E63E25482F68557305666E1D0EEF25 /* RLMArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B15F3704BE4BD6418ADEA52A986F114F /* RLMArray.h */; };
+		3A900A49BC6FAB534B748A0C5CA21A5A /* RLMProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7FAF4496BBC57329FF3F6C3297F206A /* RLMProperty.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		3BDC54AA01B045D3ACC523A26858E0EA /* realm_coordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2365251CD746B841B4138A00845739E /* realm_coordinator.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		3CA5767052F8087E62A99431D498836D /* ObjectSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD81D72A57B7EA2C38090A447F3A0 /* ObjectSchema.swift */; };
+		3D6D0336F7FA9EE00FB867695650286A /* Pods-ToDoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F97ACE74A07385FF529998C18AB52 /* Pods-ToDoUITests-dummy.m */; };
+		401FCB4E4B9002EC1D346986A3AADA59 /* RLMProperty.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 898B1DA04BAEE8153A5B6ECDBB9B8B2B /* RLMProperty.h */; };
+		40629961C42FE718A702862134EB6B6A /* RLMResults.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 541265866512DE0FBE82E7011D6CD371 /* RLMResults.h */; };
+		40F73A2495A5CF79DA965DB166BE9FB6 /* RLMListBase.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D44F05709D50FF1D09AC5F51B0429C3C /* RLMListBase.h */; };
+		4212051B6C8B5FFC15BD68F24DD27026 /* NSError+RLMSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC0087176803522218B9E41367BEC06 /* NSError+RLMSync.h */; };
+		42887E29DE143EDCAE475CABC5F47697 /* RLMObjectBase_Dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 997EE6F3683F1955F4276EC04A2A350B /* RLMObjectBase_Dynamic.h */; };
+		434FA8CD25C9C2CA3C558EC9067514D9 /* RLMRealm.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 70701C42F684A753C05246A6960C1EEE /* RLMRealm.h */; };
+		44020672C82825533F5BF95B9FBCB092 /* external_commit_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B6ED3308C70169E31B4160D343C00EA /* external_commit_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		45321179F000295AB965B4541A86BE69 /* Pods-ToDo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0663500976F9422802FC1BB8E5C1EC37 /* Pods-ToDo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C76A2FB93FCE2B3F963B5BF513DED4 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6869DE805F2649EFA97A66453F7E76C4 /* Migration.swift */; };
+		470BA5039AF4D4A5CFA8F679628A2341 /* RLMMigration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16FF76F351F18945D6BD8A6ABC42E57C /* RLMMigration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		4A4613245D7FEBCB43E7610924EBADBF /* RLMObject.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D3E1B98742994066D4E28F1D7717A6BD /* RLMObject.h */; };
+		4BFE94AB069F5550F6CA01ECA83FCEA3 /* keychain_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDA49E6B126819974E44079F2FDA16C6 /* keychain_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		4E7D75D6B27C21508F4FE0123A1913F2 /* RLMUpdateChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = B519FE954F78940F7DA4B3E193082174 /* RLMUpdateChecker.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		4F77AA398C5294EE062B0966367BC13A /* RLMThreadSafeReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF4EF4DE99DDD97A28FC44DD856748D /* RLMThreadSafeReference.h */; };
+		501235D4F2A8B700F01305624E0B2EB5 /* RLMSyncPermissionOfferResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C328DB8AC7F8B35AD3431F56A79FFBE4 /* RLMSyncPermissionOfferResponse.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		50CA640BC6C9836121153212401F5CF3 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432D015790C0C50A8296B9ECA78911B /* Util.swift */; };
+		516827CAF6B86489FADCC00812634AFE /* RLMSyncSessionRefreshHandle.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEAA75C5BF069D04565694D2DEE38343 /* RLMSyncSessionRefreshHandle.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		528668BEFF96E890580783BF826EDED6 /* RLMSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = ADD2E0B31DFF9B00B9C72888739E4056 /* RLMSchema_Private.h */; };
+		52CEA48A80B2C5674160039E8C336C35 /* RLMSyncPermissionOffer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 107E31A6529CF0FAC3302E27DFA8AF27 /* RLMSyncPermissionOffer_Private.h */; };
+		5461E4B683938339FFE99ADE454B780E /* RLMSchema.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 2A1CB8C654CBA072C2D53BF2C63447A0 /* RLMSchema.h */; };
+		549D78ADBF0CA2970DDD640BD7CE232C /* RLMSyncManager.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A00AF98E437B48724CFBEC6EA82DCADD /* RLMSyncManager.h */; };
+		55EA5A15F4C383F6CEF3CF59DAB48D2A /* RLMSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1CB8C654CBA072C2D53BF2C63447A0 /* RLMSchema.h */; };
+		565242E0AD265A407D79CC9031AF741A /* RLMRealm_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = BC59F95FCB3174343811F845CC083FA6 /* RLMRealm_Private.h */; };
+		5875F361B1430E8DC9654816275E7E47 /* RLMRealmUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18692AA8AFFACA1116F9B743E916485E /* RLMRealmUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		58BC0563A59920025DBD0A5DB3CABFA1 /* RLMRealm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB4DC2B050A521CB5C716F31EAFD83 /* RLMRealm.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		5B8AA99717949733756EAFA5177CE94B /* Pods-ToDoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE593B7AB1D05831CC3EF05FC8899D3 /* Pods-ToDoTests-dummy.m */; };
+		5B981698211292E1F92A21CC9F182675 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB31ED1BE73E511D709EFE6ECD433FF /* IQKeyboardManagerSwift-dummy.m */; };
+		5C1B7FB4706A09F7E95F26B02797BE19 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71289D2B997F7824B043F24250C33A6C /* IQKeyboardReturnKeyHandler.swift */; };
+		5C99EE1CD610BC23CBD8B69B907EA3EE /* placeholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C5409ABE1D8278502BF75E1CE48356 /* placeholder.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		5DA17F8086EBB4F2AD167A3A0842E28D /* RLMObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3C4F071778711882BE777C08067055 /* RLMObjectStore.h */; };
+		5E14527F2071321A4C5967E9545F09D3 /* RLMSchema.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF4C16802C6D3F5D51E52E70F3814FE7 /* RLMSchema.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		5EC494FC7B23F3A97D21397C86C1E1A5 /* NSError+RLMSync.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6DC0087176803522218B9E41367BEC06 /* NSError+RLMSync.h */; };
+		619C10FF73428EF7C7E1976209D3510C /* thread_safe_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4785501544449AD2D791528CF0D020E /* thread_safe_reference.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		62911D0BD79D8E5B4472BA7105CB8E64 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241EDC53837380ADDBE00C8E465E15D /* Results.swift */; };
+		63C118D898636E2B5C16B2A2B992B9C3 /* RLMSyncManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C735B1894A11CE8626DFAE9F63A5582 /* RLMSyncManager.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		65CADE4EE1FB64CAAEB883F709653F49 /* RLMAccessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = F703576533F105C59123900E086EA4C0 /* RLMAccessor.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		662A8BCD78D2BEAA2859320D9A97F42A /* index_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5153080AEF9A8BA090228F53FF6A352F /* index_set.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		665D3642C731C9FBCB68D5EF2884EAB2 /* RLMSyncPermissionOfferResponse_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AF23050BD7147C89D94E56F1FAEF670A /* RLMSyncPermissionOfferResponse_Private.h */; };
+		66720F7867B6E03A7BBE427E04310C5E /* RLMUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B2D1AA709D4163648BBB9D69AADFA /* RLMUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		676BF02B93F572F26D24966657032636 /* RLMNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B5BD0D9C953BC80C6FD4116E8DBE /* RLMNetworkClient.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		68D9B186EE5C7975FE2D6E3D8DFFB303 /* RLMOptionalBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F138127A5511367D81494B244590 /* RLMOptionalBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		693E7AA10E223D7DA7B355F72517210B /* RLMConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 262342F9F4A931865F404C1749D5D236 /* RLMConstants.h */; };
+		695C30108CF06431A2F9BEE3A86088B9 /* RLMOptionalBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F708813A385C4CEF8126F5AA804D9403 /* RLMOptionalBase.h */; };
+		6D017F9ED06608145D7DEAB4BA616930 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C35921E437A8F9896B12745F5DC4 /* List.swift */; };
+		6D5E8904B7587446DD0871AE3F459705 /* RLMPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 309F44C880BE6DF3A17B090C53D4CD45 /* RLMPlatform.h */; };
+		6F77F1B48083C71001EC68C68B893FB7 /* RLMCollection.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FB5660755AD12376B01473AF0A3C6439 /* RLMCollection.h */; };
+		720FD669BA8C1CD675C3F579549BECF7 /* RLMThreadSafeReference.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC7D79DF729E6499E0302DA35C8844 /* RLMThreadSafeReference.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		727517870D0BA5E6730B75CFE9914AF8 /* RLMMigration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 634A44536BBE06CD1CDE2FD752D3B622 /* RLMMigration.h */; };
+		7320D7BE1B8287D106426F4BF8955C3D /* collection_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BF96BFE69DF55657DE6093A7EF08189 /* collection_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		761E0240E07452FE4AF5A11F3F6C15C7 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63FC965E16B27F4116643A73D7FCCE /* Aliases.swift */; };
+		766BA0C3D75149B694783286CF490AD6 /* RLMSwiftSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AA8D7D3BB8CDD4E30BC8C65D8F915 /* RLMSwiftSupport.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		76B6B85DF50C1A633E8D45802FE57FB4 /* RLMSyncUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1787F25B1A8B440FA0E2811387B2E3 /* RLMSyncUtil.h */; };
+		7732AA3EDA82B47E2D642E094BFD52DA /* RLMSyncPermissionOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F380A6796F22B2C2D7144FF80E139F54 /* RLMSyncPermissionOffer.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		77435C2889AB33557217141317363DC2 /* RLMSyncPermissionChange_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 0C0A422B1B9AF8195A92277A29DF569B /* RLMSyncPermissionChange_Private.h */; };
+		795E069E4E373E5E0B5B5E8D2BA1C9A5 /* RLMQueryUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83509E2114C8FB82375F888587BB2F12 /* RLMQueryUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		7AD5D16989B7A087967211A463A464F5 /* RLMSyncPermissionChange_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0A422B1B9AF8195A92277A29DF569B /* RLMSyncPermissionChange_Private.h */; };
+		7B37701F2F2AE5BEEF47F91C68E9B148 /* RLMSyncUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 76014BEE1C0D6643A3354EDAF0BC167E /* RLMSyncUser.h */; };
+		7C6DE39EF278D96EE323EE04817E2DF0 /* results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B8A6D30371279F46F87E40A899EEC3 /* results.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		7CB73B4FD06BB1EEB826EC665FD4A186 /* RLMSyncConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7C3ED2FFD5C94561E6C6E17654D224 /* RLMSyncConfiguration.h */; };
+		7D811597ACF30A6BC958304C7651CA6E /* RLMSchema_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD2E0B31DFF9B00B9C72888739E4056 /* RLMSchema_Private.h */; };
+		7F27CF1BEA8274C1F4C919A5E91C6CAF /* Realm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26351BA466771F6EC746A67ADC44BD2C /* Realm-dummy.m */; };
+		80FEAB5FAE1578FD83D7B586222D562A /* RLMSyncCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 90590BEE04C864EE1A4994CDD62BF860 /* RLMSyncCredentials.h */; };
+		815BB4DA007DF73A9942E4F33B3C677F /* RLMArray.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = B15F3704BE4BD6418ADEA52A986F114F /* RLMArray.h */; };
+		819EEFD3CF05ABF68ECB94553BB0CDD8 /* list_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8202EC041E2E76BBF9FA2517105D75B /* list_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		85DF9779DC14C8A24A6CB2A206A56FBC /* sync_user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9023D77DC1CBCD88ACCA865196E868ED /* sync_user.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		88B4D200415D49FE14ED7CD0A9C23EEF /* RealmSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC23EFE9F2364217DA000884BA2F83 /* RealmSwift-dummy.m */; };
+		88E163BEF83943044B5D323AB5C7DCD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		89959176E9E2C981CE0A235B706E8AA7 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA244B36265B9FDBB0334BD97CCE7675 /* IQKeyboardManagerConstants.swift */; };
+		8A78F4537AC571818BE4B1F0A1AB84CB /* object_schema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5014CE4F22174A979FF0FBC67701B5F /* object_schema.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		8CD7C5BA67B77A39EAC0E07469B285BF /* RLMCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5660755AD12376B01473AF0A3C6439 /* RLMCollection.h */; };
+		8CDD0D3AC5E582B47CB51173E297AAD8 /* RLMObjectSchema.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B3736DE1996B3E09D5573AC7A4AC9BD /* RLMObjectSchema.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		9118CEDF9A2E47C4466E9A2A8AF6CCB0 /* RLMProperty_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D434E2070FF4230457977B769EB7A252 /* RLMProperty_Private.h */; };
+		92D5757957565A60898109997B5952D7 /* RLMSyncUtil.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 9A1787F25B1A8B440FA0E2811387B2E3 /* RLMSyncUtil.h */; };
+		9539F5F22038F46D0E76D5EF415200DA /* Pods-ToDoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8A00133836AC2555A88662B2F8C0B3 /* Pods-ToDoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991C8D8AD84D7A2954BB3770F69C7EE2 /* RLMListBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = D44F05709D50FF1D09AC5F51B0429C3C /* RLMListBase.h */; };
+		997FC6E31895E0CD37C1E90D4B4F73B8 /* RLMSyncPermissionOfferResponse_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = AF23050BD7147C89D94E56F1FAEF670A /* RLMSyncPermissionOfferResponse_Private.h */; };
+		9D20C5473D3BF15650C872AF39BEC3D7 /* RLMRealmConfiguration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 095F2A26F4515535F94AC8764B18DE8D /* RLMRealmConfiguration_Private.h */; };
+		A1727562FC0376F4EE01872D0AC71AE1 /* shared_realm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B429FA14F9754DA4F0B10A759C36C3B9 /* shared_realm.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		A2B9773F3264357AE435D7216DB1D2C9 /* RLMSyncSession.h in Headers */ = {isa = PBXBuildFile; fileRef = D19EDB0FF94C86C2DFBE08E2CE3199B8 /* RLMSyncSession.h */; };
+		A3ABFFC7E33EC9AABC8AFC07EF3D55B8 /* RLMRealmConfiguration+Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 99317DC3CB4D851D7BC8B1AE0439314F /* RLMRealmConfiguration+Sync.h */; };
+		A50218EC76648886FE767F1DCD9626DE /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14382CE8E92677088FDF73BC53BB8D13 /* IQPreviousNextView.swift */; };
+		A5CBDE20704E0E940F53C8625ACB7E55 /* RealmSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC289361ADAC014DDA8C26C4CB4B6DD /* RealmSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B889ECDC14B27F7FE1CEDF7D73131D /* RLMObjectSchema_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A3C1B62B684186C7FFB9665FBF153C /* RLMObjectSchema_Private.h */; };
+		A88CFE3F9DCE30C3AA3A2F6086C6EE84 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92C6BF420ADB25372417980C73E7ABE /* IQKeyboardManager.swift */; };
+		A9F1A9CF01AF7F7A691A0A8C9E2D3A71 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2017E87F6EA0599E5E89DD9D803E53 /* IQToolbar.swift */; };
+		AAB3601CD9D743BAD16595FE940E21AE /* RLMArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10911B22B783A32B2E35194BB964474C /* RLMArray.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		AC88C2BC489F91792399C125DB19CE33 /* object_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE0BBD97034E2413BACABD341DC874A /* object_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		ACA579D4D8F5ED3F5DA9BE30AE9B6701 /* object_store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A488D0859C94343C5609A96708EB92B4 /* object_store.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		AD032308C837E66966F59D3ED9577E1D /* RLMRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 70701C42F684A753C05246A6960C1EEE /* RLMRealm.h */; };
+		AD9A31C1035CA65F298C336A6769A067 /* RLMAuthResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E85991D910CFE8DE697A8A295BE3C /* RLMAuthResponseModel.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		AEC102827A78B9FCC24CF92F7A991179 /* RLMRealm_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BC59F95FCB3174343811F845CC083FA6 /* RLMRealm_Private.h */; };
+		AEDC3DF49AF898553DECD6E7629612A6 /* RLMArray_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 980A4D0BEC5A3B23C44EACD6B68F5165 /* RLMArray_Private.h */; };
+		AFE4EA7AC8961CC4A4739E7CBE913933 /* RLMSyncPermissionChange.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = BEB8B723A2B29682C0349F7B4CD05114 /* RLMSyncPermissionChange.h */; };
+		B0E679FF770EE8E7073391580C373D92 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333AC834DD932252591B39D53CE6C9C /* IQTextView.swift */; };
+		B2C0F52B89405ED617D1DF11612A8D8A /* RLMObjectStore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15B70790E2A59B1E22D7FF10C550A5D0 /* RLMObjectStore.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		B2F5AF7190D2B4FE5AD6B9DEF0FCB911 /* RLMSyncManager_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = B431519115120CC353A198364E6CE729 /* RLMSyncManager_Private.h */; };
+		B420C9E37DF7CECEFA7F97E0459891AD /* RLMObjectBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42DF939186D28671D73644298E94B933 /* RLMObjectBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		B42555FCFC5908FD17A9C85D3F4A0FF2 /* RLMObjectSchema.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = AED8C1B36339D9A6D6DDFAD8959704C9 /* RLMObjectSchema.h */; };
+		B49E26DF5871F564A7C9528173CE2D5F /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 517D9F35E0AF9D59A8F0F6A4A53CF00F /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C4AF70933882EBE78F274BA207EE52 /* transact_log_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF12DD9004B18513FD601625C25EB7 /* transact_log_handler.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		B7EFD711D2C03CBAF11BC9BBA0947AE4 /* collection_notifications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 306F53E97C871EFF923DC11CC843E1B7 /* collection_notifications.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		B9557585483AD395045D19F792D8BDE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C6CF14BF7B988EC23ED5B236FE6476 /* UIKit.framework */; };
+		BB81AC8F3F7E093522CFE1893A8DFC3D /* RLMResults_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 647190277A2675B2CDEB32FCF17DB187 /* RLMResults_Private.h */; };
+		BBA438DA444AF692D952DCD41F8136A0 /* SortDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D565FF8D57B6E9A79FD873CAE61F9A1 /* SortDescriptor.swift */; };
+		BC06CDB340A610CF996C70CE84D8B6C4 /* RLMResults.h in Headers */ = {isa = PBXBuildFile; fileRef = 541265866512DE0FBE82E7011D6CD371 /* RLMResults.h */; };
+		BC8B638F57A37F2316398833774982B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		BCD6B3BA5E1132F0FD49AC39F2BF4D62 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FDEC704F4EEF7BA200C42AEB37108 /* IQKeyboardManagerConstantsInternal.swift */; };
+		BCE2AEEE48F285D5CA9915F186CDDB1C /* RLMSyncPermissionChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FA29D727FF74E897564CC9C8AB767 /* RLMSyncPermissionChange.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		BD0431DFE7B643D14E148002EAE8B661 /* RLMSyncUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = F915A55396DBB305F8BE7308AF99EBA8 /* RLMSyncUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		BD45E12CBF57AB81D0ED053B1F2EC0BA /* RLMSyncPermissionOffer.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FBF5E6B0248E792D16AEA9BDE219D038 /* RLMSyncPermissionOffer.h */; };
+		BD5ADF6B4917B8910DB7AF499911FF31 /* RLMProperty_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = D434E2070FF4230457977B769EB7A252 /* RLMProperty_Private.h */; };
+		BD6CF5871D2242FAB237EC6440ACE1EE /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 855BCE0CD502E8BE97F2453A74825DC3 /* list.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		BDEC64120D5DBA1D95C991219A179E18 /* RLMSyncCredentials.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 90590BEE04C864EE1A4994CDD62BF860 /* RLMSyncCredentials.h */; };
+		BEA92320F3044C5D32B20B5DFE4525B0 /* RLMSyncConfiguration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 1141AB376EEAC0C576145949E84932F4 /* RLMSyncConfiguration_Private.h */; };
+		BF4291DBD67A1C68C9A7F3A70E3D3C8F /* NSError+RLMSync.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54E412E2C163B75551D321BF648D2E /* NSError+RLMSync.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		BF89C1D91159EC1A323C22EFA573B4AC /* RLMSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A00AF98E437B48724CFBEC6EA82DCADD /* RLMSyncManager.h */; };
+		BFA433E37A04D297D4D735C080B23DFF /* RLMMigration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 917BC99BB1D78A9D1475478F04380F1C /* RLMMigration_Private.h */; };
+		C06F244302C940934066CD1E6DB1F856 /* Realm.h in Headers */ = {isa = PBXBuildFile; fileRef = C0527A5031A13A32E65FD1F8DA048710 /* Realm.h */; };
+		C2173F6C5D5DF2A88F309F9DFC634CC4 /* RLMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D4348A400D1B51ECE0C897A806FEAB /* RLMConstants.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		C561E31D49332D17916AA063F4C7642F /* RLMListBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D44F05709D50FF1D09AC5F51B0429C3C /* RLMListBase.h */; };
+		C759ACB2C97ED8A9EC91C2DF79C95F1D /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B50FC32B9C1B6F1DF0F802371DD29E /* IQUIWindow+Hierarchy.swift */; };
+		C803C89FD64CFBFD61AD2953CD1481A0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466EA86FEE17CECF9AB608EDCF275AF /* Property.swift */; };
+		C92BC0B8E4CBCFD16762838B30654F29 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539716CCA35A004E16185DA9B2EB7B1 /* IQUIViewController+Additions.swift */; };
+		CA62F1CF62A5E94753A6944C39B45507 /* Realm.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C0527A5031A13A32E65FD1F8DA048710 /* Realm.h */; };
+		CAD487F10FAC944D8BBDDF290CC87ECA /* RLMObjectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 686C043B185DB06B64D6E58E59856E5D /* RLMObjectBase.h */; };
+		CB877540A932804D09AABA36469CD169 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BAEAC739472AD647789760FC3671F /* Schema.swift */; };
+		CC06D9224C59CE3937C25BD438F2DF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		CE530CE3E16D33C51BC5CE3F1C9C05FD /* ObjectiveCSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0120E3BE191F95B6EE16DE364ED847D9 /* ObjectiveCSupport.swift */; };
+		CF4614BAF72FB712556428A6B40BE5E9 /* RLMAnalytics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20BBD33B167A682B2FE0C77B1C7171AF /* RLMAnalytics.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		D1C1272BB5B5CB40DECFEC9E27F93DC6 /* RLMObjectSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = AED8C1B36339D9A6D6DDFAD8959704C9 /* RLMObjectSchema.h */; };
+		D3A5A55BAB9C6D700CFA27505928D6C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		D3ACA9DAD90C30F19599323EC2333C6D /* RLMObjectBase.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 686C043B185DB06B64D6E58E59856E5D /* RLMObjectBase.h */; };
+		D3FF6B709F3706958DA1E78E8DC5F159 /* RLMSyncManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B431519115120CC353A198364E6CE729 /* RLMSyncManager_Private.h */; };
+		D45D761E732FEBDBA9DF299591616049 /* RLMThreadSafeReference.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6EF4EF4DE99DDD97A28FC44DD856748D /* RLMThreadSafeReference.h */; };
+		D47B45AB315B226AB426AC7EA430C7AD /* RLMSyncSession.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D19EDB0FF94C86C2DFBE08E2CE3199B8 /* RLMSyncSession.h */; };
+		D5C09A48F94A95EA10844E85BEDD3346 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C451562AD252E7C8706051373CA62A /* Object.swift */; };
+		D65B8481AFF5531FC2E4382CBA63C057 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F577DB34A4DF3E03D2D89B1355D658 /* IQKeyboardManager.bundle */; };
+		D9968278EB0ADA6A403EB206EF2EAA08 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246EB3837726573E0FFCC0A9481009D3 /* Realm.framework */; };
+		D99E925436485AA862FF68F5F0FE7AA4 /* results_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E53286FFA63D2D6273F9766253F38757 /* results_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		DAFD7EE811CF637F9096BA369CEB8BF8 /* sync_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38508402064D9AAF58744427E0B83D32 /* sync_manager.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		DC6623B97E7E257CA7D5077B6721D378 /* RLMRealmConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 064EAEE0DD9A3C81A56B9A3BB9A9CB42 /* RLMRealmConfiguration.h */; };
+		DD123F012C5E352B84CB4B6BE122D1A9 /* RLMSyncUtil_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF2DC405A3137BF1F0DDA1F115C16A /* RLMSyncUtil_Private.h */; };
+		DD9ABDB7A7C20B094F2593EBAE5D07D2 /* RLMResults_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 647190277A2675B2CDEB32FCF17DB187 /* RLMResults_Private.h */; };
+		E18CC828ADB3D0E921C6F1106CA4D273 /* RLMObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB04CEA7FB20437DA25E8294810718 /* RLMObject.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		E2BAB8FE62D83902F4B2063005DEFB9F /* RLMPlatform.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 309F44C880BE6DF3A17B090C53D4CD45 /* RLMPlatform.h */; };
+		E32A6B46B51179EA542E6E0335535990 /* RLMCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = D517101EA41F0356F917DE07112B46DC /* RLMCollection.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		E3C1593934D992E099AF66F23DC021BB /* weak_realm_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA190C828C5EFDC15BDF38D4CC6F60E /* weak_realm_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		E3E013325037D7FF23671E484A2AD65A /* SwiftVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17CC6C4975DF211A146BD97987FD43 /* SwiftVersion.swift */; };
+		E632DED5C146438CE1AE5BD18EA21B80 /* RLMSyncConfiguration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0E7C3ED2FFD5C94561E6C6E17654D224 /* RLMSyncConfiguration.h */; };
+		E674524FF191BAF5BDA459B528915078 /* RealmCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F07CB1C8597E48C46973945AD1D6C7 /* RealmCollection.swift */; };
+		E770813EABA529941AF3767830E12196 /* RLMSyncPermissionOffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF5E6B0248E792D16AEA9BDE219D038 /* RLMSyncPermissionOffer.h */; };
+		E9AD3D7B3B4B82CD4D9B817109239F55 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F46304CF7E6F81FAFAFE83F8C2CB85 /* IQNSArray+Sort.swift */; };
+		E9FA0C08534AFFBE4A32E560278F8EAE /* RLMObject_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = D39A9C8439CACCAF9EA182B6BEA4615C /* RLMObject_Private.h */; };
+		EA82177B334F5DA484E8F4576377B7F8 /* RLMOptionalBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = F708813A385C4CEF8126F5AA804D9403 /* RLMOptionalBase.h */; };
+		EB4CC30EAEF2C14B7FBEE5E51371AAC4 /* RLMPredicateUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD8431EE262BC42F2705867C6E7C2876 /* RLMPredicateUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		EBA8A5DAA64881D9E8EBF4C3140D53E4 /* RLMMigration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 917BC99BB1D78A9D1475478F04380F1C /* RLMMigration_Private.h */; };
+		ECA0F60149443F7663543D718CF753A2 /* RLMAccessor.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 44FA79B71A7799394626EF13C05FB213 /* RLMAccessor.h */; };
+		ECCB4DA8047C8096DC808ECC6DC9D3F6 /* sync_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64880A2DAAE22FF2A46B8612E49220A9 /* sync_session.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		EE02DCD6D098D9A912267CFEDB2297B4 /* RLMClassInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 877F4688B5BE8557890CDD7E07BF1E6F /* RLMClassInfo.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		F0F5EFC3EED5765D9E2BE7E572C92F4C /* RLMSyncErrorResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 002470FBBE767AD291C9CA49A5735958 /* RLMSyncErrorResponseModel.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		F206E007FA64B863D35A1733E6D46945 /* RLMSyncUser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7EDCD2CF5E6EE61500656D6AA201D /* RLMSyncUser.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		F22ABE91A973F1DC707619B7179B63FE /* sync_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C7FEDAE0B29A918007AE568BE69BE /* sync_file.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		F3039783F88532077301711ACD1869E4 /* RLMAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FA79B71A7799394626EF13C05FB213 /* RLMAccessor.h */; };
+		F5270AAA04120FF877884AFC0D36D611 /* Pods-ToDoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7A0BFD96E136BB0469601BBCDBFD3C /* Pods-ToDoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6B9D69064F05A3DF46B878E567A93A4 /* RLMArray_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 980A4D0BEC5A3B23C44EACD6B68F5165 /* RLMArray_Private.h */; };
+		F7B8AF7BEB325F5936AC7681680C0F25 /* RLMResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65335BE6E46FFB3C74D1D3FEBC12B591 /* RLMResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		FBC7C1CE4C39B99AF44EDE0CBF7B6A1D /* RLMRealmConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 095F2A26F4515535F94AC8764B18DE8D /* RLMRealmConfiguration_Private.h */; };
+		FD18EB7B7E68C2D3BA5CE89176A091C7 /* RLMSyncConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = F83F8D82132C81B3E87D70ECE66F33C8 /* RLMSyncConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		FD942CA91CB79B8BAA6085C64177F162 /* RLMListBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = E93D2958E79E8B71DF16E1FF9DFA65F6 /* RLMListBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.4.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8524E28BEA9A7706F1B9E98714E970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBC019AC96F3C69E451551A1E4068AB;
+			remoteInfo = RealmSwift;
+		};
+		689DE3C3C1559F6225CB70C16C368E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC059E04CBA98AEDDB5C34E02D551E9;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		B45EFF23D31D746A02331014F1D26C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C3148686CB6FD0BA14269BE9A9FAF3;
+			remoteInfo = Realm;
+		};
+		BF644910C22AEC32C196E1A7BE86C4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C3148686CB6FD0BA14269BE9A9FAF3;
+			remoteInfo = Realm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		74D71AC6A8D193CF88FB9399E08C3AB2 /* Copy . Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				ECA0F60149443F7663543D718CF753A2 /* RLMAccessor.h in Copy . Private Headers */,
+				AEDC3DF49AF898553DECD6E7629612A6 /* RLMArray_Private.h in Copy . Private Headers */,
+				991C8D8AD84D7A2954BB3770F69C7EE2 /* RLMListBase.h in Copy . Private Headers */,
+				EBA8A5DAA64881D9E8EBF4C3140D53E4 /* RLMMigration_Private.h in Copy . Private Headers */,
+				E9FA0C08534AFFBE4A32E560278F8EAE /* RLMObject_Private.h in Copy . Private Headers */,
+				2F4D73105A0C491D0A0503C47D30390E /* RLMObjectSchema_Private.h in Copy . Private Headers */,
+				0B5C91FA84AB1C09A286E6834EBE57BF /* RLMObjectStore.h in Copy . Private Headers */,
+				EA82177B334F5DA484E8F4576377B7F8 /* RLMOptionalBase.h in Copy . Private Headers */,
+				BD5ADF6B4917B8910DB7AF499911FF31 /* RLMProperty_Private.h in Copy . Private Headers */,
+				565242E0AD265A407D79CC9031AF741A /* RLMRealm_Private.h in Copy . Private Headers */,
+				9D20C5473D3BF15650C872AF39BEC3D7 /* RLMRealmConfiguration_Private.h in Copy . Private Headers */,
+				DD9ABDB7A7C20B094F2593EBAE5D07D2 /* RLMResults_Private.h in Copy . Private Headers */,
+				528668BEFF96E890580783BF826EDED6 /* RLMSchema_Private.h in Copy . Private Headers */,
+				BEA92320F3044C5D32B20B5DFE4525B0 /* RLMSyncConfiguration_Private.h in Copy . Private Headers */,
+				B2F5AF7190D2B4FE5AD6B9DEF0FCB911 /* RLMSyncManager_Private.h in Copy . Private Headers */,
+				77435C2889AB33557217141317363DC2 /* RLMSyncPermissionChange_Private.h in Copy . Private Headers */,
+				15BEA2A4BE6C6F898C7903F989CF0059 /* RLMSyncPermissionOffer_Private.h in Copy . Private Headers */,
+				997FC6E31895E0CD37C1E90D4B4F73B8 /* RLMSyncPermissionOfferResponse_Private.h in Copy . Private Headers */,
+				02D974DA2855F020D1933F3157B890A4 /* RLMSyncUtil_Private.h in Copy . Private Headers */,
+			);
+			name = "Copy . Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2A09A9BF525F5C7DB2C284F19259FC /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				5EC494FC7B23F3A97D21397C86C1E1A5 /* NSError+RLMSync.h in Copy . Public Headers */,
+				CA62F1CF62A5E94753A6944C39B45507 /* Realm.h in Copy . Public Headers */,
+				815BB4DA007DF73A9942E4F33B3C677F /* RLMArray.h in Copy . Public Headers */,
+				6F77F1B48083C71001EC68C68B893FB7 /* RLMCollection.h in Copy . Public Headers */,
+				2FA8C951910DBB0F74E4C3271D219FE9 /* RLMConstants.h in Copy . Public Headers */,
+				40F73A2495A5CF79DA965DB166BE9FB6 /* RLMListBase.h in Copy . Public Headers */,
+				727517870D0BA5E6730B75CFE9914AF8 /* RLMMigration.h in Copy . Public Headers */,
+				4A4613245D7FEBCB43E7610924EBADBF /* RLMObject.h in Copy . Public Headers */,
+				D3ACA9DAD90C30F19599323EC2333C6D /* RLMObjectBase.h in Copy . Public Headers */,
+				2DBAF6EAB0875F55ADD47EB67FFB5890 /* RLMObjectBase_Dynamic.h in Copy . Public Headers */,
+				B42555FCFC5908FD17A9C85D3F4A0FF2 /* RLMObjectSchema.h in Copy . Public Headers */,
+				285730E520AE2FE2503D0F5C73A7D25E /* RLMOptionalBase.h in Copy . Public Headers */,
+				E2BAB8FE62D83902F4B2063005DEFB9F /* RLMPlatform.h in Copy . Public Headers */,
+				401FCB4E4B9002EC1D346986A3AADA59 /* RLMProperty.h in Copy . Public Headers */,
+				434FA8CD25C9C2CA3C558EC9067514D9 /* RLMRealm.h in Copy . Public Headers */,
+				219CE6172C162B9476A9C8C753597731 /* RLMRealm_Dynamic.h in Copy . Public Headers */,
+				0F7CB0DABFA4D47C83E1B969FF70A0BD /* RLMRealmConfiguration+Sync.h in Copy . Public Headers */,
+				23FA8BDDF3EB1BF52D186585FE1AF411 /* RLMRealmConfiguration.h in Copy . Public Headers */,
+				40629961C42FE718A702862134EB6B6A /* RLMResults.h in Copy . Public Headers */,
+				5461E4B683938339FFE99ADE454B780E /* RLMSchema.h in Copy . Public Headers */,
+				E632DED5C146438CE1AE5BD18EA21B80 /* RLMSyncConfiguration.h in Copy . Public Headers */,
+				BDEC64120D5DBA1D95C991219A179E18 /* RLMSyncCredentials.h in Copy . Public Headers */,
+				549D78ADBF0CA2970DDD640BD7CE232C /* RLMSyncManager.h in Copy . Public Headers */,
+				AFE4EA7AC8961CC4A4739E7CBE913933 /* RLMSyncPermissionChange.h in Copy . Public Headers */,
+				BD45E12CBF57AB81D0ED053B1F2EC0BA /* RLMSyncPermissionOffer.h in Copy . Public Headers */,
+				02DE0792C511EB4F0ABD879FB63CC4E8 /* RLMSyncPermissionOfferResponse.h in Copy . Public Headers */,
+				D47B45AB315B226AB426AC7EA430C7AD /* RLMSyncSession.h in Copy . Public Headers */,
+				18B369336CDB0C49990340A5DCBFEFD9 /* RLMSyncUser.h in Copy . Public Headers */,
+				92D5757957565A60898109997B5952D7 /* RLMSyncUtil.h in Copy . Public Headers */,
+				D45D761E732FEBDBA9DF299591616049 /* RLMThreadSafeReference.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		002470FBBE767AD291C9CA49A5735958 /* RLMSyncErrorResponseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncErrorResponseModel.m; path = Realm/RLMSyncErrorResponseModel.m; sourceTree = "<group>"; };
+		0120E3BE191F95B6EE16DE364ED847D9 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
+		016EF127BA5174327CD492AFC6B1B33A /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
+		02CD041F282964AD703CA6D4F8350505 /* collection_change_builder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_change_builder.cpp; path = Realm/ObjectStore/src/impl/collection_change_builder.cpp; sourceTree = "<group>"; };
+		0333AC834DD932252591B39D53CE6C9C /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		064EAEE0DD9A3C81A56B9A3BB9A9CB42 /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration.h; path = include/RLMRealmConfiguration.h; sourceTree = "<group>"; };
+		0663500976F9422802FC1BB8E5C1EC37 /* Pods-ToDo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDo-umbrella.h"; sourceTree = "<group>"; };
+		095F2A26F4515535F94AC8764B18DE8D /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration_Private.h; path = include/RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
+		0C0A422B1B9AF8195A92277A29DF569B /* RLMSyncPermissionChange_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionChange_Private.h; path = include/RLMSyncPermissionChange_Private.h; sourceTree = "<group>"; };
+		0C2017E87F6EA0599E5E89DD9D803E53 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		0D565FF8D57B6E9A79FD873CAE61F9A1 /* SortDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortDescriptor.swift; path = RealmSwift/SortDescriptor.swift; sourceTree = "<group>"; };
+		0E7C3ED2FFD5C94561E6C6E17654D224 /* RLMSyncConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration.h; path = include/RLMSyncConfiguration.h; sourceTree = "<group>"; };
+		107E31A6529CF0FAC3302E27DFA8AF27 /* RLMSyncPermissionOffer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOffer_Private.h; path = include/RLMSyncPermissionOffer_Private.h; sourceTree = "<group>"; };
+		10911B22B783A32B2E35194BB964474C /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
+		1141AB376EEAC0C576145949E84932F4 /* RLMSyncConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration_Private.h; path = include/RLMSyncConfiguration_Private.h; sourceTree = "<group>"; };
+		1272538948951199BF166A4A7B837645 /* Realm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Realm.swift; path = RealmSwift/Realm.swift; sourceTree = "<group>"; };
+		14382CE8E92677088FDF73BC53BB8D13 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		15B70790E2A59B1E22D7FF10C550A5D0 /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
+		16FF76F351F18945D6BD8A6ABC42E57C /* RLMMigration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMMigration.mm; path = Realm/RLMMigration.mm; sourceTree = "<group>"; };
+		18692AA8AFFACA1116F9B743E916485E /* RLMRealmUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmUtil.mm; path = Realm/RLMRealmUtil.mm; sourceTree = "<group>"; };
+		1E3C4F071778711882BE777C08067055 /* RLMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectStore.h; path = include/RLMObjectStore.h; sourceTree = "<group>"; };
+		1E8A00133836AC2555A88662B2F8C0B3 /* Pods-ToDoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoUITests-umbrella.h"; sourceTree = "<group>"; };
+		20BBD33B167A682B2FE0C77B1C7171AF /* RLMAnalytics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAnalytics.mm; path = Realm/RLMAnalytics.mm; sourceTree = "<group>"; };
+		232E20DB5C89D272407F62769D82A13B /* RealmSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-prefix.pch"; sourceTree = "<group>"; };
+		23B3E8F536C7BE804F71192A593E819A /* Pods-ToDoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		246EB3837726573E0FFCC0A9481009D3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2519E11A0D537B37928B96A69F54DA32 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RealmSwift/Optional.swift; sourceTree = "<group>"; };
+		262342F9F4A931865F404C1749D5D236 /* RLMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMConstants.h; path = include/RLMConstants.h; sourceTree = "<group>"; };
+		26351BA466771F6EC746A67ADC44BD2C /* Realm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Realm-dummy.m"; sourceTree = "<group>"; };
+		281BEDD3A6BF9ED55F37AC59E72F42CA /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1CB8C654CBA072C2D53BF2C63447A0 /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
+		2B3736DE1996B3E09D5573AC7A4AC9BD /* RLMObjectSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectSchema.mm; path = Realm/RLMObjectSchema.mm; sourceTree = "<group>"; };
+		2B6AA8D7D3BB8CDD4E30BC8C65D8F915 /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
+		2C735B1894A11CE8626DFAE9F63A5582 /* RLMSyncManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncManager.mm; path = Realm/RLMSyncManager.mm; sourceTree = "<group>"; };
+		2EE593B7AB1D05831CC3EF05FC8899D3 /* Pods-ToDoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoTests-dummy.m"; sourceTree = "<group>"; };
+		306F53E97C871EFF923DC11CC843E1B7 /* collection_notifications.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifications.cpp; path = Realm/ObjectStore/src/collection_notifications.cpp; sourceTree = "<group>"; };
+		309F44C880BE6DF3A17B090C53D4CD45 /* RLMPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMPlatform.h; path = include/RLMPlatform.h; sourceTree = "<group>"; };
+		315D03E4111770E1E6E43F21637970BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3266C75088C6A3BD9A09AA1FCA12F324 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		3339CDFD771EF465EEA66FFC7F5585B2 /* RLMSyncPermissionOfferResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOfferResponse.h; path = include/RLMSyncPermissionOfferResponse.h; sourceTree = "<group>"; };
+		3432D015790C0C50A8296B9ECA78911B /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = RealmSwift/Util.swift; sourceTree = "<group>"; };
+		34A3C1B62B684186C7FFB9665FBF153C /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
+		355AD81D72A57B7EA2C38090A447F3A0 /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
+		35A92C496092D645D6E2106EA0F2394C /* Pods-ToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		36C5409ABE1D8278502BF75E1CE48356 /* placeholder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = placeholder.cpp; path = Realm/ObjectStore/src/placeholder.cpp; sourceTree = "<group>"; };
+		36D8524359715C2B133D8D7EC061663F /* RLMRealmConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmConfiguration.mm; path = Realm/RLMRealmConfiguration.mm; sourceTree = "<group>"; };
+		38508402064D9AAF58744427E0B83D32 /* sync_manager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_manager.cpp; path = Realm/ObjectStore/src/sync/sync_manager.cpp; sourceTree = "<group>"; };
+		3BC289361ADAC014DDA8C26C4CB4B6DD /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
+		3C0B7B29F0F28C5EA5F36AA6C2BEEDC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3B1B8F39BF4F98FB194B206D6C7E90 /* Pods-ToDo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDo-dummy.m"; sourceTree = "<group>"; };
+		3D6E85991D910CFE8DE697A8A295BE3C /* RLMAuthResponseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMAuthResponseModel.m; path = Realm/RLMAuthResponseModel.m; sourceTree = "<group>"; };
+		3DC298ADE9F0805AB9991A583636934F /* Pods-ToDoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ToDoTests.modulemap"; sourceTree = "<group>"; };
+		42C6CF14BF7B988EC23ED5B236FE6476 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		42DF939186D28671D73644298E94B933 /* RLMObjectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectBase.mm; path = Realm/RLMObjectBase.mm; sourceTree = "<group>"; };
+		44FA79B71A7799394626EF13C05FB213 /* RLMAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMAccessor.h; path = include/RLMAccessor.h; sourceTree = "<group>"; };
+		4539716CCA35A004E16185DA9B2EB7B1 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		46D624848D46FA103FE9193210FE13DF /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		478256C3514C185D96C26D30DC3CE845 /* Pods-ToDo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ToDo.modulemap"; sourceTree = "<group>"; };
+		48A2637B4DA7890D97591DEE58279EEA /* Pods-ToDo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A13F138127A5511367D81494B244590 /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
+		4D2B2D1AA709D4163648BBB9D69AADFA /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
+		4DFF12DD9004B18513FD601625C25EB7 /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
+		4FDC7D79DF729E6499E0302DA35C8844 /* RLMThreadSafeReference.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMThreadSafeReference.mm; path = Realm/RLMThreadSafeReference.mm; sourceTree = "<group>"; };
+		4FDFF9F24C530D8FEF331132126928D1 /* format.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = format.cpp; path = Realm/ObjectStore/src/util/format.cpp; sourceTree = "<group>"; };
+		5153080AEF9A8BA090228F53FF6A352F /* index_set.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = index_set.cpp; path = Realm/ObjectStore/src/index_set.cpp; sourceTree = "<group>"; };
+		517D9F35E0AF9D59A8F0F6A4A53CF00F /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		541265866512DE0FBE82E7011D6CD371 /* RLMResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults.h; path = include/RLMResults.h; sourceTree = "<group>"; };
+		554B0462F1F7F6A42862F781F22E4C89 /* Pods-ToDoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ToDoUITests.modulemap"; sourceTree = "<group>"; };
+		55CB84ECC8138D96BD6BCF45C6D271B9 /* Pods-ToDo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDo-resources.sh"; sourceTree = "<group>"; };
+		59793CDA7E55620C337446DB6DEF479B /* Pods_ToDoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToDoTests.framework; path = "Pods-ToDoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4790BAFCF34C81BD2A5E26612E888B /* Pods-ToDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DF453C3B3451FC62857345981BB5E8B /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		5EFB501D73E9665983F2B2A4FBD3E38D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3D47AC683B6484B9B897A416F69144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634A44536BBE06CD1CDE2FD752D3B622 /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
+		647190277A2675B2CDEB32FCF17DB187 /* RLMResults_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults_Private.h; path = include/RLMResults_Private.h; sourceTree = "<group>"; };
+		64880A2DAAE22FF2A46B8612E49220A9 /* sync_session.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_session.cpp; path = Realm/ObjectStore/src/sync/sync_session.cpp; sourceTree = "<group>"; };
+		65335BE6E46FFB3C74D1D3FEBC12B591 /* RLMResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMResults.mm; path = Realm/RLMResults.mm; sourceTree = "<group>"; };
+		66D4348A400D1B51ECE0C897A806FEAB /* RLMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMConstants.m; path = Realm/RLMConstants.m; sourceTree = "<group>"; };
+		6869DE805F2649EFA97A66453F7E76C4 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = RealmSwift/Migration.swift; sourceTree = "<group>"; };
+		686C043B185DB06B64D6E58E59856E5D /* RLMObjectBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase.h; path = include/RLMObjectBase.h; sourceTree = "<group>"; };
+		695FCCC4CC4352F170902F0EDDD6EADB /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RealmSwift/Error.swift; sourceTree = "<group>"; };
+		6BDCA6B4B8A4CDED4CF1818589EE5917 /* Pods-ToDoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DA7EDCD2CF5E6EE61500656D6AA201D /* RLMSyncUser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUser.mm; path = Realm/RLMSyncUser.mm; sourceTree = "<group>"; };
+		6DC0087176803522218B9E41367BEC06 /* NSError+RLMSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+RLMSync.h"; path = "include/NSError+RLMSync.h"; sourceTree = "<group>"; };
+		6EC5BE3847FF5E268D148453F57165A9 /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
+		6EF4EF4DE99DDD97A28FC44DD856748D /* RLMThreadSafeReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMThreadSafeReference.h; path = include/RLMThreadSafeReference.h; sourceTree = "<group>"; };
+		6F7D2288B664B63B2974CE65854B6C72 /* RLMArrayLinkView.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArrayLinkView.mm; path = Realm/RLMArrayLinkView.mm; sourceTree = "<group>"; };
+		6F92DD6AE83DA9214C3AE088C80F31A2 /* Pods-ToDoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70701C42F684A753C05246A6960C1EEE /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
+		71289D2B997F7824B043F24250C33A6C /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		71F4C3F72B7569CABC83E57CE5480FF7 /* LinkingObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkingObjects.swift; path = RealmSwift/LinkingObjects.swift; sourceTree = "<group>"; };
+		71FC28A9F0D7509B55329D126A0FF2B6 /* Sync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sync.swift; path = RealmSwift/Sync.swift; sourceTree = "<group>"; };
+		72839E22BEFA88090C95B4039423D8F6 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		73F4A1D58F002AB3C10F376DB50C498E /* RLMSyncSession.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSession.mm; path = Realm/RLMSyncSession.mm; sourceTree = "<group>"; };
+		76014BEE1C0D6643A3354EDAF0BC167E /* RLMSyncUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUser.h; path = include/RLMSyncUser.h; sourceTree = "<group>"; };
+		77049C08F5C44A4E60EC7B4F3D20C0D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7723CFAA757C5CBBC271CAF2F826AF18 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A17CC6C4975DF211A146BD97987FD43 /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
+		7A5D9F22BB749C5F5FDA1ABFC4C40176 /* Pods-ToDo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDo-frameworks.sh"; sourceTree = "<group>"; };
+		7BF96BFE69DF55657DE6093A7EF08189 /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
+		7C1FA29D727FF74E897564CC9C8AB767 /* RLMSyncPermissionChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionChange.m; path = Realm/RLMSyncPermissionChange.m; sourceTree = "<group>"; };
+		7E63FC965E16B27F4116643A73D7FCCE /* Aliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliases.swift; path = RealmSwift/Aliases.swift; sourceTree = "<group>"; };
+		7F3C7FEDAE0B29A918007AE568BE69BE /* sync_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_file.cpp; path = Realm/ObjectStore/src/sync/impl/sync_file.cpp; sourceTree = "<group>"; };
+		7FB31ED1BE73E511D709EFE6ECD433FF /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		809717DF2C9AB01B46DBD0E185C4F9EB /* object.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object.cpp; path = Realm/ObjectStore/src/object.cpp; sourceTree = "<group>"; };
+		83509E2114C8FB82375F888587BB2F12 /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
+		855BCE0CD502E8BE97F2453A74825DC3 /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
+		86B50FC32B9C1B6F1DF0F802371DD29E /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIWindow+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		877F4688B5BE8557890CDD7E07BF1E6F /* RLMClassInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMClassInfo.mm; path = Realm/RLMClassInfo.mm; sourceTree = "<group>"; };
+		89089FE8A8EBF684865E48A6F2E925E6 /* RLMRealmConfiguration+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealmConfiguration+Sync.mm"; path = "Realm/RLMRealmConfiguration+Sync.mm"; sourceTree = "<group>"; };
+		898B1DA04BAEE8153A5B6ECDBB9B8B2B /* RLMProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty.h; path = include/RLMProperty.h; sourceTree = "<group>"; };
+		8ABB04CEA7FB20437DA25E8294810718 /* RLMObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObject.mm; path = Realm/RLMObject.mm; sourceTree = "<group>"; };
+		8ABC66F36524D72DB5FCD341515B1969 /* Pods-ToDoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B6ED3308C70169E31B4160D343C00EA /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
+		8E62AA063BEDF77719D60CA90F425D90 /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Dynamic.h; path = include/RLMRealm_Dynamic.h; sourceTree = "<group>"; };
+		8EBB4DC2B050A521CB5C716F31EAFD83 /* RLMRealm.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealm.mm; path = Realm/RLMRealm.mm; sourceTree = "<group>"; };
+		9023D77DC1CBCD88ACCA865196E868ED /* sync_user.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_user.cpp; path = Realm/ObjectStore/src/sync/sync_user.cpp; sourceTree = "<group>"; };
+		90590BEE04C864EE1A4994CDD62BF860 /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
+		911FDEC704F4EEF7BA200C42AEB37108 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		917BC99BB1D78A9D1475478F04380F1C /* RLMMigration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration_Private.h; path = include/RLMMigration_Private.h; sourceTree = "<group>"; };
+		92B06BE0527188E78248080A16B81E33 /* Pods-ToDoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		980A4D0BEC5A3B23C44EACD6B68F5165 /* RLMArray_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray_Private.h; path = include/RLMArray_Private.h; sourceTree = "<group>"; };
+		99317DC3CB4D851D7BC8B1AE0439314F /* RLMRealmConfiguration+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealmConfiguration+Sync.h"; path = "include/RLMRealmConfiguration+Sync.h"; sourceTree = "<group>"; };
+		997EE6F3683F1955F4276EC04A2A350B /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
+		9A1787F25B1A8B440FA0E2811387B2E3 /* RLMSyncUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil.h; path = include/RLMSyncUtil.h; sourceTree = "<group>"; };
+		9AF280A7BC16191BDCFBA9E132026FA8 /* Realm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Realm.modulemap; sourceTree = "<group>"; };
+		9BCCE1A991F9F64DE994AB194C5558FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA266CFD583E6454D476D743D7D4E17 /* Pods-ToDoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9D5037A9A7AE9A726EA8318A0C20F1C6 /* Pods-ToDoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoUITests-resources.sh"; sourceTree = "<group>"; };
+		A00AF98E437B48724CFBEC6EA82DCADD /* RLMSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager.h; path = include/RLMSyncManager.h; sourceTree = "<group>"; };
+		A2365251CD746B841B4138A00845739E /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
+		A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A488D0859C94343C5609A96708EB92B4 /* object_store.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_store.cpp; path = Realm/ObjectStore/src/object_store.cpp; sourceTree = "<group>"; };
+		A4E935B635BCC894B4C9EAD7EBBC109A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBF2DC405A3137BF1F0DDA1F115C16A /* RLMSyncUtil_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil_Private.h; path = include/RLMSyncUtil_Private.h; sourceTree = "<group>"; };
+		ABDF4FB7D25079DC99283224949ADAA8 /* Pods-ToDoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4352AEC8273578D1AB7410ABF0786A /* sync_metadata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_metadata.cpp; path = Realm/ObjectStore/src/sync/impl/sync_metadata.cpp; sourceTree = "<group>"; };
+		ADD2E0B31DFF9B00B9C72888739E4056 /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
+		ADEC5CD72A05FC80F03C4F643D46B585 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		AED8C1B36339D9A6D6DDFAD8959704C9 /* RLMObjectSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema.h; path = include/RLMObjectSchema.h; sourceTree = "<group>"; };
+		AF23050BD7147C89D94E56F1FAEF670A /* RLMSyncPermissionOfferResponse_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOfferResponse_Private.h; path = include/RLMSyncPermissionOfferResponse_Private.h; sourceTree = "<group>"; };
+		AF4C16802C6D3F5D51E52E70F3814FE7 /* RLMSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSchema.mm; path = Realm/RLMSchema.mm; sourceTree = "<group>"; };
+		B115765AAB5BC0A24B6EBB081FABA54C /* Pods-ToDoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B15F3704BE4BD6418ADEA52A986F114F /* RLMArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray.h; path = include/RLMArray.h; sourceTree = "<group>"; };
+		B241EDC53837380ADDBE00C8E465E15D /* Results.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Results.swift; path = RealmSwift/Results.swift; sourceTree = "<group>"; };
+		B429FA14F9754DA4F0B10A759C36C3B9 /* shared_realm.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = shared_realm.cpp; path = Realm/ObjectStore/src/shared_realm.cpp; sourceTree = "<group>"; };
+		B431519115120CC353A198364E6CE729 /* RLMSyncManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager_Private.h; path = include/RLMSyncManager_Private.h; sourceTree = "<group>"; };
+		B4785501544449AD2D791528CF0D020E /* thread_safe_reference.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_safe_reference.cpp; path = Realm/ObjectStore/src/thread_safe_reference.cpp; sourceTree = "<group>"; };
+		B519FE954F78940F7DA4B3E193082174 /* RLMUpdateChecker.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUpdateChecker.mm; path = Realm/RLMUpdateChecker.mm; sourceTree = "<group>"; };
+		B5CE2CCD1D9069E030F99F7CDBF29535 /* Pods-ToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDo.release.xcconfig"; sourceTree = "<group>"; };
+		B80D096150673C928ED5BF8F8922504D /* librealm-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "librealm-ios.a"; path = "core/librealm-ios.a"; sourceTree = "<group>"; };
+		BA244B36265B9FDBB0334BD97CCE7675 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		BBA190C828C5EFDC15BDF38D4CC6F60E /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
+		BC3544BBAB76073DCB728033630EA069 /* RealmSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RealmSwift.modulemap; sourceTree = "<group>"; };
+		BC59F95FCB3174343811F845CC083FA6 /* RLMRealm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Private.h; path = include/RLMRealm_Private.h; sourceTree = "<group>"; };
+		BD1BAEAC739472AD647789760FC3671F /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = RealmSwift/Schema.swift; sourceTree = "<group>"; };
+		BD8431EE262BC42F2705867C6E7C2876 /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
+		BEB8B723A2B29682C0349F7B4CD05114 /* RLMSyncPermissionChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionChange.h; path = include/RLMSyncPermissionChange.h; sourceTree = "<group>"; };
+		C00379C9D78AA324A94DEA60614B93AD /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
+		C0527A5031A13A32E65FD1F8DA048710 /* Realm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Realm.h; path = include/Realm.h; sourceTree = "<group>"; };
+		C328DB8AC7F8B35AD3431F56A79FFBE4 /* RLMSyncPermissionOfferResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionOfferResponse.m; path = Realm/RLMSyncPermissionOfferResponse.m; sourceTree = "<group>"; };
+		C36766C8BCD8DA3556F941276A9C373C /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		C5014CE4F22174A979FF0FBC67701B5F /* object_schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_schema.cpp; path = Realm/ObjectStore/src/object_schema.cpp; sourceTree = "<group>"; };
+		C636C35921E437A8F9896B12745F5DC4 /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
+		C7C451562AD252E7C8706051373CA62A /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = RealmSwift/Object.swift; sourceTree = "<group>"; };
+		C8F6EC4CD57C817108723E9C0AAB7B49 /* Pods-ToDoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoTests-resources.sh"; sourceTree = "<group>"; };
+		C9D427C61D3BB4E1A26F2BE17FE6A032 /* ThreadSafeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeReference.swift; path = RealmSwift/ThreadSafeReference.swift; sourceTree = "<group>"; };
+		CC0F97ACE74A07385FF529998C18AB52 /* Pods-ToDoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoUITests-dummy.m"; sourceTree = "<group>"; };
+		CEAA75C5BF069D04565694D2DEE38343 /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
+		D0F07CB1C8597E48C46973945AD1D6C7 /* RealmCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmCollection.swift; path = RealmSwift/RealmCollection.swift; sourceTree = "<group>"; };
+		D19EDB0FF94C86C2DFBE08E2CE3199B8 /* RLMSyncSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSession.h; path = include/RLMSyncSession.h; sourceTree = "<group>"; };
+		D1A3B5BD0D9C953BC80C6FD4116E8DBE /* RLMNetworkClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMNetworkClient.m; path = Realm/RLMNetworkClient.m; sourceTree = "<group>"; };
+		D227844E9A3AACA66F532BB5390B6FFC /* RealmSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealmSwift.xcconfig; sourceTree = "<group>"; };
+		D39A9C8439CACCAF9EA182B6BEA4615C /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
+		D3E1B98742994066D4E28F1D7717A6BD /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
+		D434E2070FF4230457977B769EB7A252 /* RLMProperty_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty_Private.h; path = include/RLMProperty_Private.h; sourceTree = "<group>"; };
+		D44F05709D50FF1D09AC5F51B0429C3C /* RLMListBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMListBase.h; path = include/RLMListBase.h; sourceTree = "<group>"; };
+		D466EA86FEE17CECF9AB608EDCF275AF /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = RealmSwift/Property.swift; sourceTree = "<group>"; };
+		D4DF47A9EB260108F80C41F068AFEBF1 /* RLMObservation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObservation.mm; path = Realm/RLMObservation.mm; sourceTree = "<group>"; };
+		D517101EA41F0356F917DE07112B46DC /* RLMCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMCollection.mm; path = Realm/RLMCollection.mm; sourceTree = "<group>"; };
+		D6F46304CF7E6F81FAFAFE83F8C2CB85 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		D78750B6D14A9B456F86D2FF85A06C6D /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		D7FAF4496BBC57329FF3F6C3297F206A /* RLMProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMProperty.mm; path = Realm/RLMProperty.mm; sourceTree = "<group>"; };
+		D8202EC041E2E76BBF9FA2517105D75B /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
+		DA54E412E2C163B75551D321BF648D2E /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
+		DC664E37E7ADFEC8E168BC6FB945104E /* Pods-ToDo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD1EB45A4A420808225236F716B7C64B /* Pods_ToDoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToDoUITests.framework; path = "Pods-ToDoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAAE62BD40967B2281B707B6C940083 /* RLMTokenModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMTokenModels.m; path = Realm/RLMTokenModels.m; sourceTree = "<group>"; };
+		E46326EAF2EEC21394513406C65A9B09 /* Pods_ToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToDo.framework; path = "Pods-ToDo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B8A6D30371279F46F87E40A899EEC3 /* results.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results.cpp; path = Realm/ObjectStore/src/results.cpp; sourceTree = "<group>"; };
+		E53286FFA63D2D6273F9766253F38757 /* results_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results_notifier.cpp; path = Realm/ObjectStore/src/impl/results_notifier.cpp; sourceTree = "<group>"; };
+		E64BADB944912EB7879E2EABBE6678C0 /* Realm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Realm.xcconfig; sourceTree = "<group>"; };
+		E93D2958E79E8B71DF16E1FF9DFA65F6 /* RLMListBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMListBase.mm; path = Realm/RLMListBase.mm; sourceTree = "<group>"; };
+		EAD3414E9F2BD9D62F6805E3CD58F66D /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
+		EDA49E6B126819974E44079F2FDA16C6 /* keychain_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = keychain_helper.cpp; path = Realm/ObjectStore/src/impl/apple/keychain_helper.cpp; sourceTree = "<group>"; };
+		EEC60B666C7BAF3EE45DFAFF1485DC5B /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		F380A6796F22B2C2D7144FF80E139F54 /* RLMSyncPermissionOffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionOffer.m; path = Realm/RLMSyncPermissionOffer.m; sourceTree = "<group>"; };
+		F3FC23EFE9F2364217DA000884BA2F83 /* RealmSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealmSwift-dummy.m"; sourceTree = "<group>"; };
+		F703576533F105C59123900E086EA4C0 /* RLMAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAccessor.mm; path = Realm/RLMAccessor.mm; sourceTree = "<group>"; };
+		F708813A385C4CEF8126F5AA804D9403 /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
+		F83F8D82132C81B3E87D70ECE66F33C8 /* RLMSyncConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncConfiguration.mm; path = Realm/RLMSyncConfiguration.mm; sourceTree = "<group>"; };
+		F8F577DB34A4DF3E03D2D89B1355D658 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		F915A55396DBB305F8BE7308AF99EBA8 /* RLMSyncUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUtil.mm; path = Realm/RLMSyncUtil.mm; sourceTree = "<group>"; };
+		F92C6BF420ADB25372417980C73E7ABE /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		F9373F858801DAAA4BFF0A367EB44B6F /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		FAE0BBD97034E2413BACABD341DC874A /* object_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_notifier.cpp; path = Realm/ObjectStore/src/impl/object_notifier.cpp; sourceTree = "<group>"; };
+		FB5660755AD12376B01473AF0A3C6439 /* RLMCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection.h; path = include/RLMCollection.h; sourceTree = "<group>"; };
+		FBF5E6B0248E792D16AEA9BDE219D038 /* RLMSyncPermissionOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOffer.h; path = include/RLMSyncPermissionOffer.h; sourceTree = "<group>"; };
+		FC7A0BFD96E136BB0469601BBCDBFD3C /* Pods-ToDoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoTests-umbrella.h"; sourceTree = "<group>"; };
+		FD53E4D00A673A46051FA424BF55DD16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9A5F28854FC6A3BA509CAE1F832F6E /* Pods-ToDoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B179EE85248372A88D2BFC5F619D7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC06D9224C59CE3937C25BD438F2DF03 /* Foundation.framework in Frameworks */,
+				D9968278EB0ADA6A403EB206EF2EAA08 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10062CC15DAEABE95D65862067E8682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8F85A1033B5AE0FE8126CE2E937E9F /* CoreGraphics.framework in Frameworks */,
+				08F70BDD45F0B73F1AD27507808FEC3B /* Foundation.framework in Frameworks */,
+				B9557585483AD395045D19F792D8BDE7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E1DDB5FB422979D4DC816145F98D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A5A55BAB9C6D700CFA27505928D6C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2C6A0DE18F03B6F1B53CBA469D32F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E163BEF83943044B5D323AB5C7DCD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9211A6251E0C6F74AE44216A76320592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8B638F57A37F2316398833774982B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E538A03F012D44D4098616150F7288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6D33291FBF781263A77DAB971A8457 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A8BABBCAB35397B8FC587302053365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				935363F7795AAD37429A008148E1528F /* IQKeyboardManagerSwift */,
+				76981C441832468B2733DC24583B4BF9 /* Realm */,
+				84A9C80DFA4DD4CAF02F2FB9CBDF48DB /* RealmSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C714E4BED80B2F82A6DA8A26A88C74F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246EB3837726573E0FFCC0A9481009D3 /* Realm.framework */,
+				C421E9DADBAF18C48D70C92DB15684D3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76981C441832468B2733DC24583B4BF9 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				02CD041F282964AD703CA6D4F8350505 /* collection_change_builder.cpp */,
+				306F53E97C871EFF923DC11CC843E1B7 /* collection_notifications.cpp */,
+				7BF96BFE69DF55657DE6093A7EF08189 /* collection_notifier.cpp */,
+				8B6ED3308C70169E31B4160D343C00EA /* external_commit_helper.cpp */,
+				4FDFF9F24C530D8FEF331132126928D1 /* format.cpp */,
+				5153080AEF9A8BA090228F53FF6A352F /* index_set.cpp */,
+				EDA49E6B126819974E44079F2FDA16C6 /* keychain_helper.cpp */,
+				855BCE0CD502E8BE97F2453A74825DC3 /* list.cpp */,
+				D8202EC041E2E76BBF9FA2517105D75B /* list_notifier.cpp */,
+				DA54E412E2C163B75551D321BF648D2E /* NSError+RLMSync.m */,
+				809717DF2C9AB01B46DBD0E185C4F9EB /* object.cpp */,
+				FAE0BBD97034E2413BACABD341DC874A /* object_notifier.cpp */,
+				C5014CE4F22174A979FF0FBC67701B5F /* object_schema.cpp */,
+				A488D0859C94343C5609A96708EB92B4 /* object_store.cpp */,
+				36C5409ABE1D8278502BF75E1CE48356 /* placeholder.cpp */,
+				A2365251CD746B841B4138A00845739E /* realm_coordinator.cpp */,
+				E4B8A6D30371279F46F87E40A899EEC3 /* results.cpp */,
+				E53286FFA63D2D6273F9766253F38757 /* results_notifier.cpp */,
+				44FA79B71A7799394626EF13C05FB213 /* RLMAccessor.h */,
+				F703576533F105C59123900E086EA4C0 /* RLMAccessor.mm */,
+				20BBD33B167A682B2FE0C77B1C7171AF /* RLMAnalytics.mm */,
+				10911B22B783A32B2E35194BB964474C /* RLMArray.mm */,
+				980A4D0BEC5A3B23C44EACD6B68F5165 /* RLMArray_Private.h */,
+				6F7D2288B664B63B2974CE65854B6C72 /* RLMArrayLinkView.mm */,
+				3D6E85991D910CFE8DE697A8A295BE3C /* RLMAuthResponseModel.m */,
+				877F4688B5BE8557890CDD7E07BF1E6F /* RLMClassInfo.mm */,
+				D517101EA41F0356F917DE07112B46DC /* RLMCollection.mm */,
+				66D4348A400D1B51ECE0C897A806FEAB /* RLMConstants.m */,
+				D44F05709D50FF1D09AC5F51B0429C3C /* RLMListBase.h */,
+				E93D2958E79E8B71DF16E1FF9DFA65F6 /* RLMListBase.mm */,
+				16FF76F351F18945D6BD8A6ABC42E57C /* RLMMigration.mm */,
+				917BC99BB1D78A9D1475478F04380F1C /* RLMMigration_Private.h */,
+				D1A3B5BD0D9C953BC80C6FD4116E8DBE /* RLMNetworkClient.m */,
+				8ABB04CEA7FB20437DA25E8294810718 /* RLMObject.mm */,
+				D39A9C8439CACCAF9EA182B6BEA4615C /* RLMObject_Private.h */,
+				42DF939186D28671D73644298E94B933 /* RLMObjectBase.mm */,
+				2B3736DE1996B3E09D5573AC7A4AC9BD /* RLMObjectSchema.mm */,
+				34A3C1B62B684186C7FFB9665FBF153C /* RLMObjectSchema_Private.h */,
+				1E3C4F071778711882BE777C08067055 /* RLMObjectStore.h */,
+				15B70790E2A59B1E22D7FF10C550A5D0 /* RLMObjectStore.mm */,
+				D4DF47A9EB260108F80C41F068AFEBF1 /* RLMObservation.mm */,
+				F708813A385C4CEF8126F5AA804D9403 /* RLMOptionalBase.h */,
+				4A13F138127A5511367D81494B244590 /* RLMOptionalBase.mm */,
+				BD8431EE262BC42F2705867C6E7C2876 /* RLMPredicateUtil.mm */,
+				D7FAF4496BBC57329FF3F6C3297F206A /* RLMProperty.mm */,
+				D434E2070FF4230457977B769EB7A252 /* RLMProperty_Private.h */,
+				83509E2114C8FB82375F888587BB2F12 /* RLMQueryUtil.mm */,
+				8EBB4DC2B050A521CB5C716F31EAFD83 /* RLMRealm.mm */,
+				BC59F95FCB3174343811F845CC083FA6 /* RLMRealm_Private.h */,
+				36D8524359715C2B133D8D7EC061663F /* RLMRealmConfiguration.mm */,
+				89089FE8A8EBF684865E48A6F2E925E6 /* RLMRealmConfiguration+Sync.mm */,
+				095F2A26F4515535F94AC8764B18DE8D /* RLMRealmConfiguration_Private.h */,
+				18692AA8AFFACA1116F9B743E916485E /* RLMRealmUtil.mm */,
+				65335BE6E46FFB3C74D1D3FEBC12B591 /* RLMResults.mm */,
+				647190277A2675B2CDEB32FCF17DB187 /* RLMResults_Private.h */,
+				AF4C16802C6D3F5D51E52E70F3814FE7 /* RLMSchema.mm */,
+				ADD2E0B31DFF9B00B9C72888739E4056 /* RLMSchema_Private.h */,
+				2B6AA8D7D3BB8CDD4E30BC8C65D8F915 /* RLMSwiftSupport.m */,
+				F83F8D82132C81B3E87D70ECE66F33C8 /* RLMSyncConfiguration.mm */,
+				1141AB376EEAC0C576145949E84932F4 /* RLMSyncConfiguration_Private.h */,
+				EAD3414E9F2BD9D62F6805E3CD58F66D /* RLMSyncCredentials.m */,
+				002470FBBE767AD291C9CA49A5735958 /* RLMSyncErrorResponseModel.m */,
+				2C735B1894A11CE8626DFAE9F63A5582 /* RLMSyncManager.mm */,
+				B431519115120CC353A198364E6CE729 /* RLMSyncManager_Private.h */,
+				7C1FA29D727FF74E897564CC9C8AB767 /* RLMSyncPermissionChange.m */,
+				0C0A422B1B9AF8195A92277A29DF569B /* RLMSyncPermissionChange_Private.h */,
+				F380A6796F22B2C2D7144FF80E139F54 /* RLMSyncPermissionOffer.m */,
+				107E31A6529CF0FAC3302E27DFA8AF27 /* RLMSyncPermissionOffer_Private.h */,
+				C328DB8AC7F8B35AD3431F56A79FFBE4 /* RLMSyncPermissionOfferResponse.m */,
+				AF23050BD7147C89D94E56F1FAEF670A /* RLMSyncPermissionOfferResponse_Private.h */,
+				73F4A1D58F002AB3C10F376DB50C498E /* RLMSyncSession.mm */,
+				CEAA75C5BF069D04565694D2DEE38343 /* RLMSyncSessionRefreshHandle.mm */,
+				6DA7EDCD2CF5E6EE61500656D6AA201D /* RLMSyncUser.mm */,
+				F915A55396DBB305F8BE7308AF99EBA8 /* RLMSyncUtil.mm */,
+				ABBF2DC405A3137BF1F0DDA1F115C16A /* RLMSyncUtil_Private.h */,
+				4FDC7D79DF729E6499E0302DA35C8844 /* RLMThreadSafeReference.mm */,
+				DDAAE62BD40967B2281B707B6C940083 /* RLMTokenModels.m */,
+				B519FE954F78940F7DA4B3E193082174 /* RLMUpdateChecker.mm */,
+				4D2B2D1AA709D4163648BBB9D69AADFA /* RLMUtil.mm */,
+				016EF127BA5174327CD492AFC6B1B33A /* schema.cpp */,
+				B429FA14F9754DA4F0B10A759C36C3B9 /* shared_realm.cpp */,
+				7F3C7FEDAE0B29A918007AE568BE69BE /* sync_file.cpp */,
+				38508402064D9AAF58744427E0B83D32 /* sync_manager.cpp */,
+				AC4352AEC8273578D1AB7410ABF0786A /* sync_metadata.cpp */,
+				64880A2DAAE22FF2A46B8612E49220A9 /* sync_session.cpp */,
+				9023D77DC1CBCD88ACCA865196E868ED /* sync_user.cpp */,
+				B4785501544449AD2D791528CF0D020E /* thread_safe_reference.cpp */,
+				4DFF12DD9004B18513FD601625C25EB7 /* transact_log_handler.cpp */,
+				BBA190C828C5EFDC15BDF38D4CC6F60E /* weak_realm_notifier.cpp */,
+				E275587BD815994468BD32770D780EF8 /* Frameworks */,
+				9C5D7C46AB84EA45E622B4ED1156EAF4 /* Headers */,
+				7E6F90D57E8383B87F11EC7CC9F4530E /* Support Files */,
+			);
+			name = Realm;
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		77BE931A976868B2531C7BF5457AB17B /* Pods-ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCE1A991F9F64DE994AB194C5558FC /* Info.plist */,
+				478256C3514C185D96C26D30DC3CE845 /* Pods-ToDo.modulemap */,
+				48A2637B4DA7890D97591DEE58279EEA /* Pods-ToDo-acknowledgements.markdown */,
+				DC664E37E7ADFEC8E168BC6FB945104E /* Pods-ToDo-acknowledgements.plist */,
+				3D3B1B8F39BF4F98FB194B206D6C7E90 /* Pods-ToDo-dummy.m */,
+				7A5D9F22BB749C5F5FDA1ABFC4C40176 /* Pods-ToDo-frameworks.sh */,
+				55CB84ECC8138D96BD6BCF45C6D271B9 /* Pods-ToDo-resources.sh */,
+				0663500976F9422802FC1BB8E5C1EC37 /* Pods-ToDo-umbrella.h */,
+				35A92C496092D645D6E2106EA0F2394C /* Pods-ToDo.debug.xcconfig */,
+				B5CE2CCD1D9069E030F99F7CDBF29535 /* Pods-ToDo.release.xcconfig */,
+			);
+			name = "Pods-ToDo";
+			path = "Target Support Files/Pods-ToDo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6C714E4BED80B2F82A6DA8A26A88C74F /* Frameworks */,
+				41A8BABBCAB35397B8FC587302053365 /* Pods */,
+				FB39FC93473F86D4CB8DF0C2AFB3BEE7 /* Products */,
+				9436FD361CA15B7F2190DA65FDB357B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6F90D57E8383B87F11EC7CC9F4530E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D47AC683B6484B9B897A416F69144 /* Info.plist */,
+				9AF280A7BC16191BDCFBA9E132026FA8 /* Realm.modulemap */,
+				E64BADB944912EB7879E2EABBE6678C0 /* Realm.xcconfig */,
+				26351BA466771F6EC746A67ADC44BD2C /* Realm-dummy.m */,
+				C00379C9D78AA324A94DEA60614B93AD /* Realm-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Realm";
+			sourceTree = "<group>";
+		};
+		84A9C80DFA4DD4CAF02F2FB9CBDF48DB /* RealmSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7E63FC965E16B27F4116643A73D7FCCE /* Aliases.swift */,
+				695FCCC4CC4352F170902F0EDDD6EADB /* Error.swift */,
+				71F4C3F72B7569CABC83E57CE5480FF7 /* LinkingObjects.swift */,
+				C636C35921E437A8F9896B12745F5DC4 /* List.swift */,
+				6869DE805F2649EFA97A66453F7E76C4 /* Migration.swift */,
+				C7C451562AD252E7C8706051373CA62A /* Object.swift */,
+				0120E3BE191F95B6EE16DE364ED847D9 /* ObjectiveCSupport.swift */,
+				355AD81D72A57B7EA2C38090A447F3A0 /* ObjectSchema.swift */,
+				2519E11A0D537B37928B96A69F54DA32 /* Optional.swift */,
+				D466EA86FEE17CECF9AB608EDCF275AF /* Property.swift */,
+				1272538948951199BF166A4A7B837645 /* Realm.swift */,
+				D0F07CB1C8597E48C46973945AD1D6C7 /* RealmCollection.swift */,
+				6EC5BE3847FF5E268D148453F57165A9 /* RealmConfiguration.swift */,
+				B241EDC53837380ADDBE00C8E465E15D /* Results.swift */,
+				BD1BAEAC739472AD647789760FC3671F /* Schema.swift */,
+				0D565FF8D57B6E9A79FD873CAE61F9A1 /* SortDescriptor.swift */,
+				7A17CC6C4975DF211A146BD97987FD43 /* SwiftVersion.swift */,
+				71FC28A9F0D7509B55329D126A0FF2B6 /* Sync.swift */,
+				C9D427C61D3BB4E1A26F2BE17FE6A032 /* ThreadSafeReference.swift */,
+				3432D015790C0C50A8296B9ECA78911B /* Util.swift */,
+				B52ABF8415AD9B593D2589088A969B54 /* Support Files */,
+			);
+			name = RealmSwift;
+			path = RealmSwift;
+			sourceTree = "<group>";
+		};
+		935363F7795AAD37429A008148E1528F /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				46D624848D46FA103FE9193210FE13DF /* IQBarButtonItem.swift */,
+				F92C6BF420ADB25372417980C73E7ABE /* IQKeyboardManager.swift */,
+				BA244B36265B9FDBB0334BD97CCE7675 /* IQKeyboardManagerConstants.swift */,
+				911FDEC704F4EEF7BA200C42AEB37108 /* IQKeyboardManagerConstantsInternal.swift */,
+				71289D2B997F7824B043F24250C33A6C /* IQKeyboardReturnKeyHandler.swift */,
+				D6F46304CF7E6F81FAFAFE83F8C2CB85 /* IQNSArray+Sort.swift */,
+				14382CE8E92677088FDF73BC53BB8D13 /* IQPreviousNextView.swift */,
+				0333AC834DD932252591B39D53CE6C9C /* IQTextView.swift */,
+				C36766C8BCD8DA3556F941276A9C373C /* IQTitleBarButtonItem.swift */,
+				0C2017E87F6EA0599E5E89DD9D803E53 /* IQToolbar.swift */,
+				3266C75088C6A3BD9A09AA1FCA12F324 /* IQUIScrollView+Additions.swift */,
+				ADEC5CD72A05FC80F03C4F643D46B585 /* IQUITextFieldView+Additions.swift */,
+				5DF453C3B3451FC62857345981BB5E8B /* IQUIView+Hierarchy.swift */,
+				EEC60B666C7BAF3EE45DFAFF1485DC5B /* IQUIView+IQKeyboardToolbar.swift */,
+				4539716CCA35A004E16185DA9B2EB7B1 /* IQUIViewController+Additions.swift */,
+				86B50FC32B9C1B6F1DF0F802371DD29E /* IQUIWindow+Hierarchy.swift */,
+				DB85C4A5A451E676A17CE6831F62E7F3 /* Resources */,
+				D92BAC458BD98B156B8F69D8888C8D1B /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		9436FD361CA15B7F2190DA65FDB357B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77BE931A976868B2531C7BF5457AB17B /* Pods-ToDo */,
+				A9877477CA49C707E7895F70E13983F9 /* Pods-ToDoTests */,
+				E512449DDAE7372DE3125FECEFF2B67F /* Pods-ToDoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C5D7C46AB84EA45E622B4ED1156EAF4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0087176803522218B9E41367BEC06 /* NSError+RLMSync.h */,
+				C0527A5031A13A32E65FD1F8DA048710 /* Realm.h */,
+				B15F3704BE4BD6418ADEA52A986F114F /* RLMArray.h */,
+				FB5660755AD12376B01473AF0A3C6439 /* RLMCollection.h */,
+				262342F9F4A931865F404C1749D5D236 /* RLMConstants.h */,
+				634A44536BBE06CD1CDE2FD752D3B622 /* RLMMigration.h */,
+				D3E1B98742994066D4E28F1D7717A6BD /* RLMObject.h */,
+				686C043B185DB06B64D6E58E59856E5D /* RLMObjectBase.h */,
+				997EE6F3683F1955F4276EC04A2A350B /* RLMObjectBase_Dynamic.h */,
+				AED8C1B36339D9A6D6DDFAD8959704C9 /* RLMObjectSchema.h */,
+				309F44C880BE6DF3A17B090C53D4CD45 /* RLMPlatform.h */,
+				898B1DA04BAEE8153A5B6ECDBB9B8B2B /* RLMProperty.h */,
+				70701C42F684A753C05246A6960C1EEE /* RLMRealm.h */,
+				8E62AA063BEDF77719D60CA90F425D90 /* RLMRealm_Dynamic.h */,
+				064EAEE0DD9A3C81A56B9A3BB9A9CB42 /* RLMRealmConfiguration.h */,
+				99317DC3CB4D851D7BC8B1AE0439314F /* RLMRealmConfiguration+Sync.h */,
+				541265866512DE0FBE82E7011D6CD371 /* RLMResults.h */,
+				2A1CB8C654CBA072C2D53BF2C63447A0 /* RLMSchema.h */,
+				0E7C3ED2FFD5C94561E6C6E17654D224 /* RLMSyncConfiguration.h */,
+				90590BEE04C864EE1A4994CDD62BF860 /* RLMSyncCredentials.h */,
+				A00AF98E437B48724CFBEC6EA82DCADD /* RLMSyncManager.h */,
+				BEB8B723A2B29682C0349F7B4CD05114 /* RLMSyncPermissionChange.h */,
+				FBF5E6B0248E792D16AEA9BDE219D038 /* RLMSyncPermissionOffer.h */,
+				3339CDFD771EF465EEA66FFC7F5585B2 /* RLMSyncPermissionOfferResponse.h */,
+				D19EDB0FF94C86C2DFBE08E2CE3199B8 /* RLMSyncSession.h */,
+				76014BEE1C0D6643A3354EDAF0BC167E /* RLMSyncUser.h */,
+				9A1787F25B1A8B440FA0E2811387B2E3 /* RLMSyncUtil.h */,
+				6EF4EF4DE99DDD97A28FC44DD856748D /* RLMThreadSafeReference.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		A9877477CA49C707E7895F70E13983F9 /* Pods-ToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD53E4D00A673A46051FA424BF55DD16 /* Info.plist */,
+				3DC298ADE9F0805AB9991A583636934F /* Pods-ToDoTests.modulemap */,
+				6BDCA6B4B8A4CDED4CF1818589EE5917 /* Pods-ToDoTests-acknowledgements.markdown */,
+				8ABC66F36524D72DB5FCD341515B1969 /* Pods-ToDoTests-acknowledgements.plist */,
+				2EE593B7AB1D05831CC3EF05FC8899D3 /* Pods-ToDoTests-dummy.m */,
+				92B06BE0527188E78248080A16B81E33 /* Pods-ToDoTests-frameworks.sh */,
+				C8F6EC4CD57C817108723E9C0AAB7B49 /* Pods-ToDoTests-resources.sh */,
+				FC7A0BFD96E136BB0469601BBCDBFD3C /* Pods-ToDoTests-umbrella.h */,
+				ABDF4FB7D25079DC99283224949ADAA8 /* Pods-ToDoTests.debug.xcconfig */,
+				5C4790BAFCF34C81BD2A5E26612E888B /* Pods-ToDoTests.release.xcconfig */,
+			);
+			name = "Pods-ToDoTests";
+			path = "Target Support Files/Pods-ToDoTests";
+			sourceTree = "<group>";
+		};
+		B52ABF8415AD9B593D2589088A969B54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77049C08F5C44A4E60EC7B4F3D20C0D9 /* Info.plist */,
+				BC3544BBAB76073DCB728033630EA069 /* RealmSwift.modulemap */,
+				D227844E9A3AACA66F532BB5390B6FFC /* RealmSwift.xcconfig */,
+				F3FC23EFE9F2364217DA000884BA2F83 /* RealmSwift-dummy.m */,
+				232E20DB5C89D272407F62769D82A13B /* RealmSwift-prefix.pch */,
+				3BC289361ADAC014DDA8C26C4CB4B6DD /* RealmSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RealmSwift";
+			sourceTree = "<group>";
+		};
+		C421E9DADBAF18C48D70C92DB15684D3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				315D03E4111770E1E6E43F21637970BB /* CoreGraphics.framework */,
+				A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */,
+				42C6CF14BF7B988EC23ED5B236FE6476 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D92BAC458BD98B156B8F69D8888C8D1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B7B29F0F28C5EA5F36AA6C2BEEDC3 /* Info.plist */,
+				D78750B6D14A9B456F86D2FF85A06C6D /* IQKeyboardManagerSwift.modulemap */,
+				F9373F858801DAAA4BFF0A367EB44B6F /* IQKeyboardManagerSwift.xcconfig */,
+				7FB31ED1BE73E511D709EFE6ECD433FF /* IQKeyboardManagerSwift-dummy.m */,
+				72839E22BEFA88090C95B4039423D8F6 /* IQKeyboardManagerSwift-prefix.pch */,
+				517D9F35E0AF9D59A8F0F6A4A53CF00F /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		DB85C4A5A451E676A17CE6831F62E7F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F577DB34A4DF3E03D2D89B1355D658 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E275587BD815994468BD32770D780EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80D096150673C928ED5BF8F8922504D /* librealm-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E512449DDAE7372DE3125FECEFF2B67F /* Pods-ToDoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E935B635BCC894B4C9EAD7EBBC109A /* Info.plist */,
+				554B0462F1F7F6A42862F781F22E4C89 /* Pods-ToDoUITests.modulemap */,
+				B115765AAB5BC0A24B6EBB081FABA54C /* Pods-ToDoUITests-acknowledgements.markdown */,
+				6F92DD6AE83DA9214C3AE088C80F31A2 /* Pods-ToDoUITests-acknowledgements.plist */,
+				CC0F97ACE74A07385FF529998C18AB52 /* Pods-ToDoUITests-dummy.m */,
+				9CA266CFD583E6454D476D743D7D4E17 /* Pods-ToDoUITests-frameworks.sh */,
+				9D5037A9A7AE9A726EA8318A0C20F1C6 /* Pods-ToDoUITests-resources.sh */,
+				1E8A00133836AC2555A88662B2F8C0B3 /* Pods-ToDoUITests-umbrella.h */,
+				FD9A5F28854FC6A3BA509CAE1F832F6E /* Pods-ToDoUITests.debug.xcconfig */,
+				23B3E8F536C7BE804F71192A593E819A /* Pods-ToDoUITests.release.xcconfig */,
+			);
+			name = "Pods-ToDoUITests";
+			path = "Target Support Files/Pods-ToDoUITests";
+			sourceTree = "<group>";
+		};
+		FB39FC93473F86D4CB8DF0C2AFB3BEE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB501D73E9665983F2B2A4FBD3E38D /* IQKeyboardManagerSwift.framework */,
+				E46326EAF2EEC21394513406C65A9B09 /* Pods_ToDo.framework */,
+				59793CDA7E55620C337446DB6DEF479B /* Pods_ToDoTests.framework */,
+				DD1EB45A4A420808225236F716B7C64B /* Pods_ToDoUITests.framework */,
+				7723CFAA757C5CBBC271CAF2F826AF18 /* Realm.framework */,
+				281BEDD3A6BF9ED55F37AC59E72F42CA /* RealmSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05F6D66F838ABEA9F084040AB8E9D24A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CBDE20704E0E940F53C8625ACB7E55 /* RealmSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659667B4BA6EB0336333245D00E22700 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45321179F000295AB965B4541A86BE69 /* Pods-ToDo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663220E369742FC2310DAB3BFA61D1AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4212051B6C8B5FFC15BD68F24DD27026 /* NSError+RLMSync.h in Headers */,
+				C06F244302C940934066CD1E6DB1F856 /* Realm.h in Headers */,
+				F3039783F88532077301711ACD1869E4 /* RLMAccessor.h in Headers */,
+				36E63E25482F68557305666E1D0EEF25 /* RLMArray.h in Headers */,
+				F6B9D69064F05A3DF46B878E567A93A4 /* RLMArray_Private.h in Headers */,
+				8CD7C5BA67B77A39EAC0E07469B285BF /* RLMCollection.h in Headers */,
+				693E7AA10E223D7DA7B355F72517210B /* RLMConstants.h in Headers */,
+				C561E31D49332D17916AA063F4C7642F /* RLMListBase.h in Headers */,
+				2C8FB1B539FF115049DA6D721B1BB34F /* RLMMigration.h in Headers */,
+				BFA433E37A04D297D4D735C080B23DFF /* RLMMigration_Private.h in Headers */,
+				198D2A2CE83ECA327C12D71B74AD6D00 /* RLMObject.h in Headers */,
+				26F97D3ABCEC17CB6C1794CA27E07870 /* RLMObject_Private.h in Headers */,
+				CAD487F10FAC944D8BBDDF290CC87ECA /* RLMObjectBase.h in Headers */,
+				42887E29DE143EDCAE475CABC5F47697 /* RLMObjectBase_Dynamic.h in Headers */,
+				D1C1272BB5B5CB40DECFEC9E27F93DC6 /* RLMObjectSchema.h in Headers */,
+				A7B889ECDC14B27F7FE1CEDF7D73131D /* RLMObjectSchema_Private.h in Headers */,
+				5DA17F8086EBB4F2AD167A3A0842E28D /* RLMObjectStore.h in Headers */,
+				695C30108CF06431A2F9BEE3A86088B9 /* RLMOptionalBase.h in Headers */,
+				6D5E8904B7587446DD0871AE3F459705 /* RLMPlatform.h in Headers */,
+				0DD66494B8D9C4EBCEB68810449CA9C8 /* RLMProperty.h in Headers */,
+				9118CEDF9A2E47C4466E9A2A8AF6CCB0 /* RLMProperty_Private.h in Headers */,
+				AD032308C837E66966F59D3ED9577E1D /* RLMRealm.h in Headers */,
+				15660E486B774D1FE357BA0224E6A2ED /* RLMRealm_Dynamic.h in Headers */,
+				AEC102827A78B9FCC24CF92F7A991179 /* RLMRealm_Private.h in Headers */,
+				A3ABFFC7E33EC9AABC8AFC07EF3D55B8 /* RLMRealmConfiguration+Sync.h in Headers */,
+				DC6623B97E7E257CA7D5077B6721D378 /* RLMRealmConfiguration.h in Headers */,
+				FBC7C1CE4C39B99AF44EDE0CBF7B6A1D /* RLMRealmConfiguration_Private.h in Headers */,
+				BC06CDB340A610CF996C70CE84D8B6C4 /* RLMResults.h in Headers */,
+				BB81AC8F3F7E093522CFE1893A8DFC3D /* RLMResults_Private.h in Headers */,
+				55EA5A15F4C383F6CEF3CF59DAB48D2A /* RLMSchema.h in Headers */,
+				7D811597ACF30A6BC958304C7651CA6E /* RLMSchema_Private.h in Headers */,
+				7CB73B4FD06BB1EEB826EC665FD4A186 /* RLMSyncConfiguration.h in Headers */,
+				17CEE18F63D6EA12635983B4E640CE7D /* RLMSyncConfiguration_Private.h in Headers */,
+				80FEAB5FAE1578FD83D7B586222D562A /* RLMSyncCredentials.h in Headers */,
+				BF89C1D91159EC1A323C22EFA573B4AC /* RLMSyncManager.h in Headers */,
+				D3FF6B709F3706958DA1E78E8DC5F159 /* RLMSyncManager_Private.h in Headers */,
+				2C685CCA4436F0561206E171B058FC3D /* RLMSyncPermissionChange.h in Headers */,
+				7AD5D16989B7A087967211A463A464F5 /* RLMSyncPermissionChange_Private.h in Headers */,
+				E770813EABA529941AF3767830E12196 /* RLMSyncPermissionOffer.h in Headers */,
+				52CEA48A80B2C5674160039E8C336C35 /* RLMSyncPermissionOffer_Private.h in Headers */,
+				08326E539B9CC20FF3FD39EE627F623E /* RLMSyncPermissionOfferResponse.h in Headers */,
+				665D3642C731C9FBCB68D5EF2884EAB2 /* RLMSyncPermissionOfferResponse_Private.h in Headers */,
+				A2B9773F3264357AE435D7216DB1D2C9 /* RLMSyncSession.h in Headers */,
+				7B37701F2F2AE5BEEF47F91C68E9B148 /* RLMSyncUser.h in Headers */,
+				76B6B85DF50C1A633E8D45802FE57FB4 /* RLMSyncUtil.h in Headers */,
+				DD123F012C5E352B84CB4B6BE122D1A9 /* RLMSyncUtil_Private.h in Headers */,
+				4F77AA398C5294EE062B0966367BC13A /* RLMThreadSafeReference.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BA59180EE48A098B19A62B91EA5897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5270AAA04120FF877884AFC0D36D611 /* Pods-ToDoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD88B6DD09C415A9711495A711C910C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9539F5F22038F46D0E76D5EF415200DA /* Pods-ToDoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0594BC12C332F68CBA28F99391465D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49E26DF5871F564A7C9528173CE2D5F /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A904747987E760F695D91561AB11CF1 /* Pods-ToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDA3BE1DA579B459A75E0655D99820E /* Build configuration list for PBXNativeTarget "Pods-ToDo" */;
+			buildPhases = (
+				E5E42A05C8C6DCDD57043B7BDBF010DC /* Sources */,
+				F7E538A03F012D44D4098616150F7288 /* Frameworks */,
+				659667B4BA6EB0336333245D00E22700 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE828510459B540FDDA52C5C41EE490 /* PBXTargetDependency */,
+				C24090191449B5B21C0FC8EA0454A85F /* PBXTargetDependency */,
+				A124956C75CC38C9899D4639A2DE6E9E /* PBXTargetDependency */,
+			);
+			name = "Pods-ToDo";
+			productName = "Pods-ToDo";
+			productReference = E46326EAF2EEC21394513406C65A9B09 /* Pods_ToDo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B8C8837854098D8D911F8A3335DDAC /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				AB0925B8AA80E6202908F358FE239182 /* Sources */,
+				10062CC15DAEABE95D65862067E8682B /* Frameworks */,
+				8913AFCA6CAEB5D9BF81A3A49E9CE1BE /* Resources */,
+				E0594BC12C332F68CBA28F99391465D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = 5EFB501D73E9665983F2B2A4FBD3E38D /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B4F0328E4204CE23B29D1A8BA6290B0 /* Pods-ToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A812E6A00D8E36ECBFD41F1E1EB3FCBC /* Build configuration list for PBXNativeTarget "Pods-ToDoTests" */;
+			buildPhases = (
+				974F3ACA65E467F593BB0929437BE51A /* Sources */,
+				6F2C6A0DE18F03B6F1B53CBA469D32F8 /* Frameworks */,
+				86BA59180EE48A098B19A62B91EA5897 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ToDoTests";
+			productName = "Pods-ToDoTests";
+			productReference = 59793CDA7E55620C337446DB6DEF479B /* Pods_ToDoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7587A9C84B1236A01F4E9755D09CE841 /* Pods-ToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04F52D33621F8863C489CD43EE9994D /* Build configuration list for PBXNativeTarget "Pods-ToDoUITests" */;
+			buildPhases = (
+				264DCA9E6DC39C617F02D9350B4E46A9 /* Sources */,
+				9211A6251E0C6F74AE44216A76320592 /* Frameworks */,
+				AFD88B6DD09C415A9711495A711C910C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ToDoUITests";
+			productName = "Pods-ToDoUITests";
+			productReference = DD1EB45A4A420808225236F716B7C64B /* Pods_ToDoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7C3148686CB6FD0BA14269BE9A9FAF3 /* Realm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1003CF85B98A69DB5F058F8362DC41 /* Build configuration list for PBXNativeTarget "Realm" */;
+			buildPhases = (
+				2E2CB8B45195723883D684D3CF308ED6 /* Sources */,
+				18E1DDB5FB422979D4DC816145F98D61 /* Frameworks */,
+				663220E369742FC2310DAB3BFA61D1AA /* Headers */,
+				74D71AC6A8D193CF88FB9399E08C3AB2 /* Copy . Private Headers */,
+				8B2A09A9BF525F5C7DB2C284F19259FC /* Copy . Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Realm;
+			productName = Realm;
+			productReference = 7723CFAA757C5CBBC271CAF2F826AF18 /* Realm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDBC019AC96F3C69E451551A1E4068AB /* RealmSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6639ACA012DD5806E634B9A07E83B5D /* Build configuration list for PBXNativeTarget "RealmSwift" */;
+			buildPhases = (
+				F88A8A6A11803346511192FB26DA7565 /* Sources */,
+				0B179EE85248372A88D2BFC5F619D7E0 /* Frameworks */,
+				05F6D66F838ABEA9F084040AB8E9D24A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB685E4E0512456F64EA87B3D6946276 /* PBXTargetDependency */,
+			);
+			name = RealmSwift;
+			productName = RealmSwift;
+			productReference = 281BEDD3A6BF9ED55F37AC59E72F42CA /* RealmSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB39FC93473F86D4CB8DF0C2AFB3BEE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */,
+				4A904747987E760F695D91561AB11CF1 /* Pods-ToDo */,
+				6B4F0328E4204CE23B29D1A8BA6290B0 /* Pods-ToDoTests */,
+				7587A9C84B1236A01F4E9755D09CE841 /* Pods-ToDoUITests */,
+				C7C3148686CB6FD0BA14269BE9A9FAF3 /* Realm */,
+				CDBC019AC96F3C69E451551A1E4068AB /* RealmSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8913AFCA6CAEB5D9BF81A3A49E9CE1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65B8481AFF5531FC2E4382CBA63C057 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264DCA9E6DC39C617F02D9350B4E46A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6D0336F7FA9EE00FB867695650286A /* Pods-ToDoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2CB8B45195723883D684D3CF308ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E037C08F7B2D54726D0F7814D9B89FB /* collection_change_builder.cpp in Sources */,
+				B7EFD711D2C03CBAF11BC9BBA0947AE4 /* collection_notifications.cpp in Sources */,
+				7320D7BE1B8287D106426F4BF8955C3D /* collection_notifier.cpp in Sources */,
+				44020672C82825533F5BF95B9FBCB092 /* external_commit_helper.cpp in Sources */,
+				01B97E78D3E784436E197B29EB9962A7 /* format.cpp in Sources */,
+				662A8BCD78D2BEAA2859320D9A97F42A /* index_set.cpp in Sources */,
+				4BFE94AB069F5550F6CA01ECA83FCEA3 /* keychain_helper.cpp in Sources */,
+				BD6CF5871D2242FAB237EC6440ACE1EE /* list.cpp in Sources */,
+				819EEFD3CF05ABF68ECB94553BB0CDD8 /* list_notifier.cpp in Sources */,
+				BF4291DBD67A1C68C9A7F3A70E3D3C8F /* NSError+RLMSync.m in Sources */,
+				136E27CE73B64E1450FD7932A033F594 /* object.cpp in Sources */,
+				AC88C2BC489F91792399C125DB19CE33 /* object_notifier.cpp in Sources */,
+				8A78F4537AC571818BE4B1F0A1AB84CB /* object_schema.cpp in Sources */,
+				ACA579D4D8F5ED3F5DA9BE30AE9B6701 /* object_store.cpp in Sources */,
+				5C99EE1CD610BC23CBD8B69B907EA3EE /* placeholder.cpp in Sources */,
+				7F27CF1BEA8274C1F4C919A5E91C6CAF /* Realm-dummy.m in Sources */,
+				3BDC54AA01B045D3ACC523A26858E0EA /* realm_coordinator.cpp in Sources */,
+				7C6DE39EF278D96EE323EE04817E2DF0 /* results.cpp in Sources */,
+				D99E925436485AA862FF68F5F0FE7AA4 /* results_notifier.cpp in Sources */,
+				65CADE4EE1FB64CAAEB883F709653F49 /* RLMAccessor.mm in Sources */,
+				CF4614BAF72FB712556428A6B40BE5E9 /* RLMAnalytics.mm in Sources */,
+				AAB3601CD9D743BAD16595FE940E21AE /* RLMArray.mm in Sources */,
+				32FC84F4F94BED3FFB2F8F5393FCE724 /* RLMArrayLinkView.mm in Sources */,
+				AD9A31C1035CA65F298C336A6769A067 /* RLMAuthResponseModel.m in Sources */,
+				EE02DCD6D098D9A912267CFEDB2297B4 /* RLMClassInfo.mm in Sources */,
+				E32A6B46B51179EA542E6E0335535990 /* RLMCollection.mm in Sources */,
+				C2173F6C5D5DF2A88F309F9DFC634CC4 /* RLMConstants.m in Sources */,
+				FD942CA91CB79B8BAA6085C64177F162 /* RLMListBase.mm in Sources */,
+				470BA5039AF4D4A5CFA8F679628A2341 /* RLMMigration.mm in Sources */,
+				676BF02B93F572F26D24966657032636 /* RLMNetworkClient.m in Sources */,
+				E18CC828ADB3D0E921C6F1106CA4D273 /* RLMObject.mm in Sources */,
+				B420C9E37DF7CECEFA7F97E0459891AD /* RLMObjectBase.mm in Sources */,
+				8CDD0D3AC5E582B47CB51173E297AAD8 /* RLMObjectSchema.mm in Sources */,
+				B2C0F52B89405ED617D1DF11612A8D8A /* RLMObjectStore.mm in Sources */,
+				262FA2D8C4D439566FDFB31D1A414980 /* RLMObservation.mm in Sources */,
+				68D9B186EE5C7975FE2D6E3D8DFFB303 /* RLMOptionalBase.mm in Sources */,
+				EB4CC30EAEF2C14B7FBEE5E51371AAC4 /* RLMPredicateUtil.mm in Sources */,
+				3A900A49BC6FAB534B748A0C5CA21A5A /* RLMProperty.mm in Sources */,
+				795E069E4E373E5E0B5B5E8D2BA1C9A5 /* RLMQueryUtil.mm in Sources */,
+				58BC0563A59920025DBD0A5DB3CABFA1 /* RLMRealm.mm in Sources */,
+				1569ABC3B7641ADAAA68AC68D182B3B4 /* RLMRealmConfiguration+Sync.mm in Sources */,
+				20A0AAF1E1174EA27F39A0ECD7EF0F40 /* RLMRealmConfiguration.mm in Sources */,
+				5875F361B1430E8DC9654816275E7E47 /* RLMRealmUtil.mm in Sources */,
+				F7B8AF7BEB325F5936AC7681680C0F25 /* RLMResults.mm in Sources */,
+				5E14527F2071321A4C5967E9545F09D3 /* RLMSchema.mm in Sources */,
+				766BA0C3D75149B694783286CF490AD6 /* RLMSwiftSupport.m in Sources */,
+				FD18EB7B7E68C2D3BA5CE89176A091C7 /* RLMSyncConfiguration.mm in Sources */,
+				177FF1D62CA114F32F2A4F9E17563E3A /* RLMSyncCredentials.m in Sources */,
+				F0F5EFC3EED5765D9E2BE7E572C92F4C /* RLMSyncErrorResponseModel.m in Sources */,
+				63C118D898636E2B5C16B2A2B992B9C3 /* RLMSyncManager.mm in Sources */,
+				BCE2AEEE48F285D5CA9915F186CDDB1C /* RLMSyncPermissionChange.m in Sources */,
+				7732AA3EDA82B47E2D642E094BFD52DA /* RLMSyncPermissionOffer.m in Sources */,
+				501235D4F2A8B700F01305624E0B2EB5 /* RLMSyncPermissionOfferResponse.m in Sources */,
+				10C2959AFE2568B605024DE655A81102 /* RLMSyncSession.mm in Sources */,
+				516827CAF6B86489FADCC00812634AFE /* RLMSyncSessionRefreshHandle.mm in Sources */,
+				F206E007FA64B863D35A1733E6D46945 /* RLMSyncUser.mm in Sources */,
+				BD0431DFE7B643D14E148002EAE8B661 /* RLMSyncUtil.mm in Sources */,
+				720FD669BA8C1CD675C3F579549BECF7 /* RLMThreadSafeReference.mm in Sources */,
+				115E7BEC96A87E2A7450B22C00109324 /* RLMTokenModels.m in Sources */,
+				4E7D75D6B27C21508F4FE0123A1913F2 /* RLMUpdateChecker.mm in Sources */,
+				66720F7867B6E03A7BBE427E04310C5E /* RLMUtil.mm in Sources */,
+				267873D533A72BB471F7FEE7819A4854 /* schema.cpp in Sources */,
+				A1727562FC0376F4EE01872D0AC71AE1 /* shared_realm.cpp in Sources */,
+				F22ABE91A973F1DC707619B7179B63FE /* sync_file.cpp in Sources */,
+				DAFD7EE811CF637F9096BA369CEB8BF8 /* sync_manager.cpp in Sources */,
+				1A20815545DC32790D5C806D24B726D5 /* sync_metadata.cpp in Sources */,
+				ECCB4DA8047C8096DC808ECC6DC9D3F6 /* sync_session.cpp in Sources */,
+				85DF9779DC14C8A24A6CB2A206A56FBC /* sync_user.cpp in Sources */,
+				619C10FF73428EF7C7E1976209D3510C /* thread_safe_reference.cpp in Sources */,
+				B5C4AF70933882EBE78F274BA207EE52 /* transact_log_handler.cpp in Sources */,
+				E3C1593934D992E099AF66F23DC021BB /* weak_realm_notifier.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974F3ACA65E467F593BB0929437BE51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8AA99717949733756EAFA5177CE94B /* Pods-ToDoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0925B8AA80E6202908F358FE239182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBD7B6D6EEBAD72870AECB44D1E3AE2 /* IQBarButtonItem.swift in Sources */,
+				A88CFE3F9DCE30C3AA3A2F6086C6EE84 /* IQKeyboardManager.swift in Sources */,
+				89959176E9E2C981CE0A235B706E8AA7 /* IQKeyboardManagerConstants.swift in Sources */,
+				BCD6B3BA5E1132F0FD49AC39F2BF4D62 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				5B981698211292E1F92A21CC9F182675 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				5C1B7FB4706A09F7E95F26B02797BE19 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				E9AD3D7B3B4B82CD4D9B817109239F55 /* IQNSArray+Sort.swift in Sources */,
+				A50218EC76648886FE767F1DCD9626DE /* IQPreviousNextView.swift in Sources */,
+				B0E679FF770EE8E7073391580C373D92 /* IQTextView.swift in Sources */,
+				32D47B0AE0C145C1E9662CC2468FED0E /* IQTitleBarButtonItem.swift in Sources */,
+				A9F1A9CF01AF7F7A691A0A8C9E2D3A71 /* IQToolbar.swift in Sources */,
+				22BF5066806248FBD63CD64193B95AB6 /* IQUIScrollView+Additions.swift in Sources */,
+				123D28717B28730D7DDD56E56B646294 /* IQUITextFieldView+Additions.swift in Sources */,
+				2BC48BA9EC7B6F6F334FB9CF2758D461 /* IQUIView+Hierarchy.swift in Sources */,
+				0B9FAA59E53F8381BAD75316E70145BE /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				C92BC0B8E4CBCFD16762838B30654F29 /* IQUIViewController+Additions.swift in Sources */,
+				C759ACB2C97ED8A9EC91C2DF79C95F1D /* IQUIWindow+Hierarchy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E42A05C8C6DCDD57043B7BDBF010DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EF5DFAEEA459FBE38151E8EAA62299 /* Pods-ToDo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A8A6A11803346511192FB26DA7565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E0240E07452FE4AF5A11F3F6C15C7 /* Aliases.swift in Sources */,
+				165D06A3DA0201EB64ED42A565BA5E31 /* Error.swift in Sources */,
+				0F6BC7FF0E2BDFB28B8239F304A68E46 /* LinkingObjects.swift in Sources */,
+				6D017F9ED06608145D7DEAB4BA616930 /* List.swift in Sources */,
+				45C76A2FB93FCE2B3F963B5BF513DED4 /* Migration.swift in Sources */,
+				D5C09A48F94A95EA10844E85BEDD3346 /* Object.swift in Sources */,
+				CE530CE3E16D33C51BC5CE3F1C9C05FD /* ObjectiveCSupport.swift in Sources */,
+				3CA5767052F8087E62A99431D498836D /* ObjectSchema.swift in Sources */,
+				1D363BC26E5C2685D8BAB89D74E4A94D /* Optional.swift in Sources */,
+				C803C89FD64CFBFD61AD2953CD1481A0 /* Property.swift in Sources */,
+				09F2517C22F191C69959F71380FCFA5A /* Realm.swift in Sources */,
+				E674524FF191BAF5BDA459B528915078 /* RealmCollection.swift in Sources */,
+				0EE551A358DBAB4E4872769CD694D3B8 /* RealmConfiguration.swift in Sources */,
+				88B4D200415D49FE14ED7CD0A9C23EEF /* RealmSwift-dummy.m in Sources */,
+				62911D0BD79D8E5B4472BA7105CB8E64 /* Results.swift in Sources */,
+				CB877540A932804D09AABA36469CD169 /* Schema.swift in Sources */,
+				BBA438DA444AF692D952DCD41F8136A0 /* SortDescriptor.swift in Sources */,
+				E3E013325037D7FF23671E484A2AD65A /* SwiftVersion.swift in Sources */,
+				1C7F3991803E2AEEA30AF089961F858E /* Sync.swift in Sources */,
+				2FAD5AE4107A3F61B3D4F146494B7253 /* ThreadSafeReference.swift in Sources */,
+				50CA640BC6C9836121153212401F5CF3 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE828510459B540FDDA52C5C41EE490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = 4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */;
+			targetProxy = 689DE3C3C1559F6225CB70C16C368E81 /* PBXContainerItemProxy */;
+		};
+		A124956C75CC38C9899D4639A2DE6E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealmSwift;
+			target = CDBC019AC96F3C69E451551A1E4068AB /* RealmSwift */;
+			targetProxy = 0A8524E28BEA9A7706F1B9E98714E970 /* PBXContainerItemProxy */;
+		};
+		BB685E4E0512456F64EA87B3D6946276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = C7C3148686CB6FD0BA14269BE9A9FAF3 /* Realm */;
+			targetProxy = B45EFF23D31D746A02331014F1D26C5A /* PBXContainerItemProxy */;
+		};
+		C24090191449B5B21C0FC8EA0454A85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = C7C3148686CB6FD0BA14269BE9A9FAF3 /* Realm */;
+			targetProxy = BF644910C22AEC32C196E1A7BE86C4F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2FF1FC8242EC59E78466FA7F683431FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9A5F28854FC6A3BA509CAE1F832F6E /* Pods-ToDoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoUITests/Pods-ToDoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32428DBD29DB8093E9B1687D4967B64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B3E8F536C7BE804F71192A593E819A /* Pods-ToDoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoUITests/Pods-ToDoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC0F4581FFFE575FE60BAA5CD81C7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D227844E9A3AACA66F532BB5390B6FFC /* RealmSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RealmSwift/RealmSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealmSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealmSwift/RealmSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RealmSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		683716F8FB87DF69005067B74810ED20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D227844E9A3AACA66F532BB5390B6FFC /* RealmSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RealmSwift/RealmSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealmSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealmSwift/RealmSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RealmSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E38CE588F4E99EAB6916965ED71BCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CE2CCD1D9069E030F99F7CDBF29535 /* Pods-ToDo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDo/Pods-ToDo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85BBAFA55133122CA6766D87D68D6EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64BADB944912EB7879E2EABBE6678C0 /* Realm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Realm/Realm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Realm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Realm/Realm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Realm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88F8F5339E96FABA13E7C12814021977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64BADB944912EB7879E2EABBE6678C0 /* Realm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Realm/Realm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Realm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Realm/Realm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Realm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B057773120D53DBB692700549D84EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9373F858801DAAA4BFF0A367EB44B6F /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2ED5D07909FC9971ABEC4BB630EC6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9373F858801DAAA4BFF0A367EB44B6F /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9FB93ED4E62C246FD2735AEF3DA4E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4790BAFCF34C81BD2A5E26612E888B /* Pods-ToDoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoTests/Pods-ToDoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E49150B907771D92115ECCBFA7997CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A92C496092D645D6E2106EA0F2394C /* Pods-ToDo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDo/Pods-ToDo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EECA207E48C4EE715EDEED0AF17E8CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDF4FB7D25079DC99283224949ADAA8 /* Pods-ToDoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoTests/Pods-ToDoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDA3BE1DA579B459A75E0655D99820E /* Build configuration list for PBXNativeTarget "Pods-ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49150B907771D92115ECCBFA7997CD3 /* Debug */,
+				7E38CE588F4E99EAB6916965ED71BCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B8C8837854098D8D911F8A3335DDAC /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ED5D07909FC9971ABEC4BB630EC6C8 /* Debug */,
+				8B057773120D53DBB692700549D84EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1003CF85B98A69DB5F058F8362DC41 /* Build configuration list for PBXNativeTarget "Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F8F5339E96FABA13E7C12814021977 /* Debug */,
+				85BBAFA55133122CA6766D87D68D6EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04F52D33621F8863C489CD43EE9994D /* Build configuration list for PBXNativeTarget "Pods-ToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF1FC8242EC59E78466FA7F683431FA /* Debug */,
+				32428DBD29DB8093E9B1687D4967B64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A812E6A00D8E36ECBFD41F1E1EB3FCBC /* Build configuration list for PBXNativeTarget "Pods-ToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECA207E48C4EE715EDEED0AF17E8CBF /* Debug */,
+				C9FB93ED4E62C246FD2735AEF3DA4E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6639ACA012DD5806E634B9A07E83B5D /* Build configuration list for PBXNativeTarget "RealmSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0F4581FFFE575FE60BAA5CD81C7DE /* Debug */,
+				683716F8FB87DF69005067B74810ED20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
